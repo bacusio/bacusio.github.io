@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bacusio.github.io/BiuBiuBiu/</id>
     <title>白熊泡面🍜</title>
-    <updated>2020-04-26T16:06:28.799Z</updated>
+    <updated>2020-04-27T09:29:36.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bacusio.github.io/BiuBiuBiu/"/>
     <link rel="self" href="https://bacusio.github.io/BiuBiuBiu/atom.xml"/>
@@ -11,4 +11,25 @@ BiuBiuBiu~</subtitle>
     <logo>https://bacusio.github.io/BiuBiuBiu/images/avatar.png</logo>
     <icon>https://bacusio.github.io/BiuBiuBiu/favicon.ico</icon>
     <rights>All rights reserved 2020, 白熊泡面🍜</rights>
+    <entry>
+        <title type="html"><![CDATA[寻找一种积极的自我路径]]></title>
+        <id>https://bacusio.github.io/BiuBiuBiu/post/tao-bi-zi-you-or/</id>
+        <link href="https://bacusio.github.io/BiuBiuBiu/post/tao-bi-zi-you-or/">
+        </link>
+        <updated>2020-04-27T11:14:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近一个月都在啃弗洛姆的《逃避自由》，好不容易通读完了，现在试图来梳理他阐述的内容。</p>
+<p>弗洛姆老爷爷在前三章阐述了个人自由后引发的新问题：个人孤独并且有无能为力感。</p>
+<p>而个人精神上为了解决这一新问题，触发了两种逃避机制：</p>
+<!-- more -->一是权威主义性格，弗洛姆解释它是产生于常人身上，而不是神经症患者身上的施虐-受虐性格。表达形式是：一个人羡慕的权威，并想要臣服于他，但同时又想自己成为新的权威，要去别人臣服于他。
+<p>（🤔自我理解即勇士杀死恶龙，自己却成为新恶龙，等待新的勇士来杀死他。）</p>
+<p>弗洛姆提到权威也不一定是一个有名有姓的人或是可以整体看待的组织。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近一个月都在啃弗洛姆的《逃避自由》，好不容易通读完了，现在试图来梳理他阐述的内容。</p>
+<p>弗洛姆老爷爷在前三章阐述了个人自由后引发的新问题：个人孤独并且有无能为力感。</p>
+<p>而个人精神上为了解决这一新问题，触发了两种逃避机制：</p>
+<!-- more -->一是权威主义性格，弗洛姆解释它是产生于常人身上，而不是神经症患者身上的施虐-受虐性格。表达形式是：一个人羡慕的权威，并想要臣服于他，但同时又想自己成为新的权威，要去别人臣服于他。
+<p>（🤔自我理解即勇士杀死恶龙，自己却成为新恶龙，等待新的勇士来杀死他。）</p>
+<p>弗洛姆提到权威也不一定是一个有名有姓的人或是可以整体看待的组织。</p>
+]]></content>
+    </entry>
 </feed>
