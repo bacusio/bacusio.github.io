@@ -1,104 +1,97 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>读本书📕 | 白熊泡面🍜</title>
-<link rel="shortcut icon" href="https://bacusio.github.io/BiuBiuBiu//favicon.ico?v=1588073517914">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="修剪技能树
+BiuBiuBiu~">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://bacusio.github.io/BiuBiuBiu//favicon.ico?v=1588073652946">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://bacusio.github.io/BiuBiuBiu//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="读本书📕 | 白熊泡面🍜 - Atom Feed" href="https://bacusio.github.io/BiuBiuBiu//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="修剪技能树
-BiuBiuBiu~" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://bacusio.github.io/BiuBiuBiu/">
-  <img class="avatar" src="https://bacusio.github.io/BiuBiuBiu//images/avatar.png?v=1588073517914" alt="">
-  </a>
-  <h1 class="site-title">
-    白熊泡面🍜
-  </h1>
-  <p class="site-description">
-    修剪技能树
-BiuBiuBiu~
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://bacusio.github.io/BiuBiuBiu/archives" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="https://bacusio.github.io/BiuBiuBiu/tags" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="https://bacusio.github.io/BiuBiuBiu/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://bacusio.github.io/BiuBiuBiu/post/hello-gridea" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-        <a href="https://www.zhihu.com/people/casas" target="_blank">
-          <i class="ri-zhihu-line"></i>
-        </a>
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://bacusio.github.io/BiuBiuBiu/">
+        <img class="avatar" src="https://bacusio.github.io/BiuBiuBiu//images/avatar.png?v=1588073652946" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://bacusio.github.io/BiuBiuBiu/">
+        <h1 class="site-title">白熊泡面🍜</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://bacusio.github.io/BiuBiuBiu/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://bacusio.github.io/BiuBiuBiu/tags" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://bacusio.github.io/BiuBiuBiu/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="https://bacusio.github.io/BiuBiuBiu/post/hello-gridea" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
         <div class="current-tag-container">
-            <h2 class="title">
-                标签：# 读本书📕
-            </h2> 
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 读本书📕
+          </h2> 
         </div>
-        <div class="post-container">
-  
-    <article class="post">
+
+        
+<section class="post-item">
+    <div class="content">
       <a href="https://bacusio.github.io/BiuBiuBiu/post/tao-bi-zi-you-or/">
         <h2 class="post-title">读弗洛姆| 寻找一种积极的自我路径</h2>
       </a>
-      <div class="post-info">
-        <span>
-          2020-04-27
-        </span>
-        <span>
-          12 min read
-        </span>
-        
-          <a href="https://bacusio.github.io/BiuBiuBiu/tag/tXiq70wb1/" class="post-tag">
-            # 读本书📕
-          </a>
-        
-      </div>
-      
       <div class="post-abstract">
         <p>近一个月都在啃弗洛姆的《逃避自由》，好不容易终于，终于读完了，现在我试图来梳理他阐述的内容。</p>
 <p>弗洛姆老爷爷在前三章阐述了个人自由后引发的新问题：个人孤独并且产生无能为力感。</p>
@@ -113,23 +106,69 @@ BiuBiuBiu~
 <p>弗洛姆在书中提出了许多区别与个人原始的思维（即自己思考诞生的想法💡），比如【伪思想】（🤔天气预报、或是单纯转述他人的思想，就像我现在转述的内容是弗洛姆的思想，不是我本人的思想，只有🤔后面才是我的真实想法💡）、【伪自我】（伪愿望，比如说爸爸妈妈强加给小孩的愿望，社会愿望。弗洛姆举例说社会普遍认为，人结婚是自愿的，但有的人，Ta主观意识上相信自己想与某人结婚，实际上Ta发现自己是被一系列事件所困，只能步步走向婚姻，根本无路可逃。于是Ta在婚礼当天，会很恐慌，甚至有想要逃跑的冲动💨）</p>
 
       </div>
-    </article>
-  
-</div>
-
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://bacusio.github.io/BiuBiuBiu//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-04-27</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://bacusio.github.io/BiuBiuBiu/tag/tXiq70wb1/">
+                读本书📕
+                
+              </a>
+            
+          </span>
+        
       </div>
     </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">修剪技能树
+BiuBiuBiu~</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://bacusio.github.io/BiuBiuBiu//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
