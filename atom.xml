@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bacusio.github.io/BiuBiuBiu/</id>
     <title>白熊泡面🍜</title>
-    <updated>2020-04-28T12:55:10.360Z</updated>
+    <updated>2020-05-13T17:15:21.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bacusio.github.io/BiuBiuBiu/"/>
     <link rel="self" href="https://bacusio.github.io/BiuBiuBiu/atom.xml"/>
@@ -11,6 +11,13 @@ BiuBiuBiu~</subtitle>
     <logo>https://bacusio.github.io/BiuBiuBiu/images/avatar.png</logo>
     <icon>https://bacusio.github.io/BiuBiuBiu/favicon.ico</icon>
     <rights>All rights reserved 2020, 白熊泡面🍜</rights>
+    <entry>
+        <title type="html"><![CDATA[修剪技能树（2013-2019）]]></title>
+        <id>https://bacusio.github.io/BiuBiuBiu/post/xiu-jian-ji-neng-shu-2013-2019/</id>
+        <link href="https://bacusio.github.io/BiuBiuBiu/post/xiu-jian-ji-neng-shu-2013-2019/">
+        </link>
+        <updated>2020-05-13T15:00:27.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[读弗洛姆| 寻找一种积极的自我路径]]></title>
         <id>https://bacusio.github.io/BiuBiuBiu/post/tao-bi-zi-you-or/</id>
