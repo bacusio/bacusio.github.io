@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bacusio.github.io/BiuBiuBiu</id>
     <title>白熊泡面🍜</title>
-    <updated>2020-05-29T14:08:35.823Z</updated>
+    <updated>2020-10-01T18:42:57.275Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bacusio.github.io/BiuBiuBiu"/>
     <link rel="self" href="https://bacusio.github.io/BiuBiuBiu/atom.xml"/>
@@ -11,6 +11,13 @@ BiuBiuBiu~</subtitle>
     <logo>https://bacusio.github.io/BiuBiuBiu/images/avatar.png</logo>
     <icon>https://bacusio.github.io/BiuBiuBiu/favicon.ico</icon>
     <rights>All rights reserved 2020, 白熊泡面🍜</rights>
+    <entry>
+        <title type="html"><![CDATA[不愿笔生花，但愿笔发光]]></title>
+        <id>https://bacusio.github.io/BiuBiuBiu/post/ju-qing-da-gang-shang-xi/</id>
+        <link href="https://bacusio.github.io/BiuBiuBiu/post/ju-qing-da-gang-shang-xi/">
+        </link>
+        <updated>2020-08-12T17:14:58.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📚|我们为什么要合作？]]></title>
         <id>https://bacusio.github.io/BiuBiuBiu/post/orwo-men-wei-shi-me-yao-he-zuo/</id>
