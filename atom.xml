@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://biubiubiu.github.io</id>
+    <id>https://bacusio.github.io/biubiubiu</id>
     <title>白熊泡面🍜</title>
-    <updated>2020-11-07T17:17:49.916Z</updated>
+    <updated>2020-11-07T17:24:12.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://biubiubiu.github.io"/>
-    <link rel="self" href="http://biubiubiu.github.io/atom.xml"/>
+    <link rel="alternate" href="https://bacusio.github.io/biubiubiu"/>
+    <link rel="self" href="https://bacusio.github.io/biubiubiu/atom.xml"/>
     <subtitle>修剪技能树
 BiuBiuBiu~</subtitle>
-    <logo>http://biubiubiu.github.io/images/avatar.png</logo>
-    <icon>http://biubiubiu.github.io/favicon.ico</icon>
+    <logo>https://bacusio.github.io/biubiubiu/images/avatar.png</logo>
+    <icon>https://bacusio.github.io/biubiubiu/favicon.ico</icon>
     <rights>All rights reserved 2020, 白熊泡面🍜</rights>
     <entry>
         <title type="html"><![CDATA[人生如赛场，战术合理才能赢]]></title>
-        <id>http://biubiubiu.github.io/post/ren-sheng-ru-sai-chang-zhan-zhu-he-li-cai-neng-ying/</id>
-        <link href="http://biubiubiu.github.io/post/ren-sheng-ru-sai-chang-zhan-zhu-he-li-cai-neng-ying/">
+        <id>https://bacusio.github.io/biubiubiu/post/ren-sheng-ru-sai-chang-zhan-zhu-he-li-cai-neng-ying/</id>
+        <link href="https://bacusio.github.io/biubiubiu/post/ren-sheng-ru-sai-chang-zhan-zhu-he-li-cai-neng-ying/">
         </link>
         <updated>2020-10-02T13:13:46.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[🦕不愿笔生花，但愿笔发光]]></title>
-        <id>http://biubiubiu.github.io/post/ju-qing-da-gang-shang-xi/</id>
-        <link href="http://biubiubiu.github.io/post/ju-qing-da-gang-shang-xi/">
+        <id>https://bacusio.github.io/biubiubiu/post/ju-qing-da-gang-shang-xi/</id>
+        <link href="https://bacusio.github.io/biubiubiu/post/ju-qing-da-gang-shang-xi/">
         </link>
         <updated>2020-08-12T17:14:58.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[📚|我们为什么要合作？]]></title>
-        <id>http://biubiubiu.github.io/post/orwo-men-wei-shi-me-yao-he-zuo/</id>
-        <link href="http://biubiubiu.github.io/post/orwo-men-wei-shi-me-yao-he-zuo/">
+        <id>https://bacusio.github.io/biubiubiu/post/orwo-men-wei-shi-me-yao-he-zuo/</id>
+        <link href="https://bacusio.github.io/biubiubiu/post/orwo-men-wei-shi-me-yao-he-zuo/">
         </link>
         <updated>2020-05-19T15:19:27.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[修剪技能树🌱 （2013-2019）]]></title>
-        <id>http://biubiubiu.github.io/post/xiu-jian-ji-neng-shu-2013-2019/</id>
-        <link href="http://biubiubiu.github.io/post/xiu-jian-ji-neng-shu-2013-2019/">
+        <id>https://bacusio.github.io/biubiubiu/post/xiu-jian-ji-neng-shu-2013-2019/</id>
+        <link href="https://bacusio.github.io/biubiubiu/post/xiu-jian-ji-neng-shu-2013-2019/">
         </link>
         <updated>2020-05-13T15:00:27.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[📚读弗洛姆| 寻找一种积极的自我路径]]></title>
-        <id>http://biubiubiu.github.io/post/book001/</id>
-        <link href="http://biubiubiu.github.io/post/book001/">
+        <id>https://bacusio.github.io/biubiubiu/post/book001/</id>
+        <link href="https://bacusio.github.io/biubiubiu/post/book001/">
         </link>
         <updated>2020-04-27T11:14:32.000Z</updated>
         <summary type="html"><![CDATA[<p>近一个月都在啃弗洛姆的《逃避自由》，好不容易终于，终于读完了，现在我试图来梳理他阐述的内容。</p>
