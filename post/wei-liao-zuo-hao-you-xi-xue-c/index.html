@@ -1,0 +1,264 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>为了做好游戏学C#！ | 白熊泡面🍜</title>
+<link rel="shortcut icon" href="https://bacusio.github.io/favicon.ico?v=1709384135075">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://bacusio.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="为了做好游戏学C#！ | 白熊泡面🍜 - Atom Feed" href="https://bacusio.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="#*学习进度条————&gt;
+2024.02.01 开始学编程
+2024.02.07 学会写键盘与鼠标的操作代码完成有bug的游戏碰撞功能
+#快捷键
+删除行 - Ctrl del
+注释行 - Ctrl /
+搜索文件 - Ctrl P
+搜索..." />
+    <meta name="keywords" content="为了做好游戏学编程！💻" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://bacusio.github.io">
+  <img class="avatar" src="https://bacusio.github.io/images/avatar.png?v=1709384135075" alt="">
+  </a>
+  <h1 class="site-title">
+    白熊泡面🍜
+  </h1>
+  <p class="site-description">
+    修剪技能树
+BiuBiuBiu~
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://bacusio.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/bacusio" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              为了做好游戏学C#！
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-02-19
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://bacusio.github.io/tag/h2aNi703e/" class="post-tag">
+                  # 为了做好游戏学编程！💻
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>#*学习进度条————&gt;<br>
+2024.02.01 开始学编程<br>
+2024.02.07 学会写键盘与鼠标的操作代码<sub>完成有bug的游戏碰撞功能</sub><br>
+#快捷键<br>
+删除行 - Ctrl del<br>
+注释行 - Ctrl /<br>
+搜索文件 - Ctrl P<br>
+搜索文档 - Ctrl f</p>
+<p>#命令行<br>
+dotnet new console --name xxx<br>
+dotnet add package Raylib-cs<br>
+dotnet run</p>
+<p>#开发框架<br>
+using System;<br>
+using System.Numerics;<br>
+using Raylib_cs;<br>
+//struct 目录信息</p>
+<p>public class Program {<br>
+public static void Main() {<br>
+//定义飞机/子弹/敌人的坐标位置<br>
+Vector2 vec = new Vector2(640, 480);<br>
+//定义子弹的数量+子弹的速度+子弹的坐标+子弹的大小<br>
+int[] circles = new int[5];<br>
+circles[0] = 50;<br>
+//定义敌人的数量+敌人的速度+敌人的坐标+敌人的大小<br>
+//敌人有五个，移动方向是左右横向移动，速度30<em>dt坐标是在画面顶部（i，100），大小是20</em>20<br>
+int[] circles = new int[5];<br>
+circles[0] = 50;<br>
+Raylib.InitWindow(640, 480, &quot;Game&quot;);</p>
+<pre><code>    while (!Raylib.WindowShouldClose()) {
+        Raylib.BeginDrawing();
+        //画游戏背景
+        //画飞机在画面底部，玩家可以通过键盘WSAD控制飞机的移动
+        //画子弹在飞机的坐标位置，子弹的数量是5，子弹的速度是100*dt，子弹的大小是10*10，颜色为红色
+         //画五个敌人在画面顶部
+        Raylib.EndDrawing();
+    }
+    Raylib.CloseWindow();
+}
+</code></pre>
+<p>}</p>
+<p><sub>【开发语言和模块】</sub></p>
+<p>控制<br>
+static Vector2 GetMoveAxis() {</p>
+<pre><code>    Vector2 axis = new Vector2(0, 0);
+
+    if (Raylib.IsKeyDown(KeyboardKey.W)) {
+        axis.Y = -1;
+    } else if (Raylib.IsKeyDown(KeyboardKey.S)) {
+        axis.Y = 1;
+    }
+
+    if (Raylib.IsKeyDown(KeyboardKey.A)) {
+        axis.X = -1;
+    } else if (Raylib.IsKeyDown(KeyboardKey.D)) {
+        axis.X = 1;
+    }
+
+    return axis;
+
+}
+</code></pre>
+<p>数组<br>
+?（var）//int[]bullet=new int[6];<br>
+bullet[]=5;<br>
+int a =bullet[0];</p>
+<p>子弹<br>
+Vector2 point<br>
+Vector2 dir<br>
+point =point +dir 点向移动方向移动</p>
+<p>#子弹自动移动模块 - Bullet Move<br>
+for (int i = 0; i &lt; bulletCount; i += 1) {<br>
+Vector2 bullet = bullets[i];<br>
+bullet.Y -= 100 * dt;<br>
+bullets[i] = bullet;<br>
+}</p>
+<pre><code>执行子弹的动作，每个子弹都有画面
+新子弹的坐标是子弹夹的坐标
+新子弹朝y轴往上飞，速度100dt
+将子弹夹的数值赋给新子弹
+</code></pre>
+<p>///</p>
+<p>code by others<br>
+for(float e,i,a,w,x,g,h;i++&lt;90.;o+=.01-.02/exp(max(s,e)<em>3e3)/h){vec3 p=vec3((FC.xy-.5</em>r)/r.y<em>g+2.,g);p.zy</em>=rotate2D(.5);e=p.y;h=e+p.x*.3;p.z+=t;for(a=.6;a&gt;.001;a*=.7)p.xz*=rotate2D(5.),x=(p.x+p.z)/a+t+t,e-=w=exp(sin(x)-3.)<em>a,h+=abs(dot(sin(p.xz/a</em>.3)<em>a,r/r));g+=e=min(e,h</em>.5-1.);}</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/">
+              <h3 class="post-title">
+                二0二二目睹之怪现状
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://bacusio.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
