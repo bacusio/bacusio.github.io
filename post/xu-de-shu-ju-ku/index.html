@@ -1,0 +1,214 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>🖥 许的数据库 | 白熊泡面🍜</title>
+<link rel="shortcut icon" href="https://bacusio.github.io/favicon.ico?v=1719172343291">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://bacusio.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="🖥 许的数据库 | 白熊泡面🍜 - Atom Feed" href="https://bacusio.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="#🌱游戏开发的工作流程（Haxe学习篇）
+①安装{Haxe|Haxe Flixel|lime|编辑器Visual Studio Code|OpenFL|heaps}
+②&quot;Hello World&quot;，创建新文件
+'flix..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://bacusio.github.io">
+  <img class="avatar" src="https://bacusio.github.io/images/avatar.png?v=1719172343291" alt="">
+  </a>
+  <h1 class="site-title">
+    白熊泡面🍜
+  </h1>
+  <p class="site-description">
+    修剪技能树
+BiuBiuBiu~
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://bacusio.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/bacusio" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              🖥 许的数据库
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-08-21
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>#🌱游戏开发的工作流程（Haxe学习篇）</p>
+<p>①安装{Haxe|Haxe Flixel|lime|编辑器Visual Studio Code|OpenFL|heaps}<br>
+②&quot;Hello World&quot;，创建新文件<br>
+'flixel create'可以创建自带一些代码demo<br>
+'flixel tpl -n Hello World'可以创建自己的游戏项目《Hello World》<br>
+'dir'显示文件夹里的内容<br>
+'code .'在visual studio 里面显示内容<br>
+③理解内容<br>
+Main.hx是核心源代码。其他模块功能的代码都放在<Source>文件夹里<br>
+project.xml是一些依赖和安装库<br>
+bulid.xml是用来配置和指定路径<br>
+<assets>是用来放游戏资产<br>
+④尝试测试它，让它动起来<br>
+visual studio code 里面选run and debug<br>
+bulid.json是用来指导visual studio做测试的<br>
+或者选Command Palette然后输入'run build task'<br>
+或者在命令行输入'haxe run lime' 'lime test html5' 编译代码为h5</p>
+<p>#PART2.0</p>
+<p>①bulid.hxml具体功能是可以用来输出不同平台的代码包<br>
+[python bin/Main.py]-&gt;一键生成python代码包在bin文件夹里<br>
+[node bin/Main.js]-&gt;一键生成js代码包在bin文件夹里<br>
+②每个类（Class）的命名首字母都要大写，否则无法识别。<br>
+③代码的分段测试是通过在VC code 里面按Ctrl+Shrft+B来运行完成的，这个步骤用于跟踪单个模块的错误和异常行为，必须先测试单个模块，之后才进行集成测试，让不同模块正确交互，观察接口是否按预期工作，不要急着冲，会有BUG（怎么在CodeSpace里面调试程序还在研究）<br>
+④目前已知的Haxe Flixel的开源项目可以实现的功能有：1.存档；2方向键控制； 3.敌人auto巡路行为算法；4.烛光的明暗渲染效果；5交互对话系统；6藏经阁书籍显示内容；7.玩家动画sprite；<br>
+未找到的功能：1.随时间消耗SAN值的系统机制；2.合成道具系统机制；3.背包机制；4谜题推理系统；5使用PlayState回收使用资产避免摧毁物体造成内存消耗的具体实例；6Tilesheet和场景代码的关联和参考demo；7.场景边缘黑暗模糊的特效；8.技能发动系统机制及UI设计框架；<br>
+⑤<br>
+#Haxe代码格式开头是 import XXX<br>
+[import openfl.display.Sprite]-&gt;导入openfl文件夹里的display文件夹里的Sprite.hx代码；此步骤确保import包含所有导入代码<br>
+#接着我们就可以写相关的Sprite函数，命名各种类（Class）了</p>
+<p>Sprite是指角色所有动作的图，要PNG格式，最好是64乘64的像素，然后240p（4.5：1）的画面是最兼容各种尺寸的平台格式。可以用TexturePacker来分割处理每个动作的数据坐标，对应生成的json文件放在<data>文件夹里（目前没搞懂为什么有些Sprite图不是彩色的反而是灰阶的）<br>
+Class new （一个首字母大写的新名字）就是新增类；<br>
+Class override （Name）就是添加新功能；<br>
+Class super (Name) 就是可以积累使用的拓展覆盖功能；</p>
+<p>此步骤要验证所有函数和变量都正确声明和使用+审查逻辑+Debug跟踪程序的流程+使用不同输入和场景测试代码+检测语法和缺少的分号（；）<br>
+当在做游戏玩法开发的时候，主屏幕改成PlayState.hx，出错的话要分析错误信息，定位漏洞点，进行必要的修复和重复调试过程，不出错的话，不要再手贱修改无问题的代码了:(。全部无误就可以改回主屏幕MenuState.hx<br>
+⑥function init{} function regularUpdate(dt：float){}是用来更新函数<br>
+function init{} if （state.time==0）{} 是用来在游戏一开始就更新<br>
+这两个函数用来重复使用，定期更新游戏现状，查看游戏胜利条件是否达成<br>
+（没弄懂什么防止排队函数叠堆，要在循环中使用@sYnc 插队进行同步？）</p>
+<p>⑦ Var +（分大小写的名字）:{Int=0(整数)|Float=0（浮点小数点）|Bool（Yes or No）|String（文本字符串text）}（++是数字加一，==是检测两个值相同否，&lt;=是检测前值是否小于后值）<br>
+⑧访问权。super是自下而上拥有所有hx的通行权，可以向上拓展覆盖，但不是全部；private是只在当前.hx有访问权；public是可以访问任何实例位置；inline则是将变量或函数定义成固定值，死也不改了。<br>
+#游戏策划 #CN #gamedesigner</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://bacusio.github.io/post/chuan-dao-shou-ye-jie-huo-pian/">
+              <h3 class="post-title">
+                📈传道受业解惑篇
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://bacusio.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

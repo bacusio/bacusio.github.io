@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>灵魂崩塌之体验 | 白熊泡面🍜</title>
+<link rel="shortcut icon" href="https://bacusio.github.io/favicon.ico?v=1719172343291">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://bacusio.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="灵魂崩塌之体验 | 白熊泡面🍜 - Atom Feed" href="https://bacusio.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="1）那时候我觉得自己处境岌岌可危，怀疑自己随时随地要崩溃。
+下了晚自习的我，在老妈房间的浴室洗澡，洗着洗着我就想哭，我讨厌乱糟糟的高中，讨厌频繁地换班打乱新朋友的友谊，讨厌韩教授带来的衡水中学的教学改革，我想念原本那间中学的朋友，最终我边哭..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://bacusio.github.io">
+  <img class="avatar" src="https://bacusio.github.io/images/avatar.png?v=1719172343291" alt="">
+  </a>
+  <h1 class="site-title">
+    白熊泡面🍜
+  </h1>
+  <p class="site-description">
+    修剪技能树
+BiuBiuBiu~
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://bacusio.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/bacusio" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              灵魂崩塌之体验
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-06-04
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>1）那时候我觉得自己处境岌岌可危，怀疑自己随时随地要崩溃。<br>
+下了晚自习的我，在老妈房间的浴室洗澡，洗着洗着我就想哭，我讨厌乱糟糟的高中，讨厌频繁地换班打乱新朋友的友谊，讨厌韩教授带来的衡水中学的教学改革，我想念原本那间中学的朋友，最终我边哭边洗澡，然后跟我妈说我想转学。最后虽然转学失败了，但还是度过一个还算愉快的高中生涯，认识了很多很好很好很好的同学们。</p>
+<p>2）2020年春节，爆发新冠疫情，微博上大量求救信息袭来，一时信息过载，整夜无眠。<br>
+最终导致自己失眠，还出现轻度焦虑的症状。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://bacusio.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
