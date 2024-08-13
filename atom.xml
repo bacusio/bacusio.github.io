@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bacusio.github.io</id>
+    <title>白熊泡面🍜</title>
+    <updated>2024-08-13T13:34:00.478Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bacusio.github.io"/>
+    <link rel="self" href="https://bacusio.github.io/atom.xml"/>
+    <subtitle>修剪技能树
+BiuBiuBiu~</subtitle>
+    <logo>https://bacusio.github.io/images/avatar.png</logo>
+    <icon>https://bacusio.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 白熊泡面🍜</rights>
+    <entry>
+        <title type="html"><![CDATA[📈传道受业解惑篇~Eugenia Cheng范畴论数学家]]></title>
+        <id>https://bacusio.github.io/post/chuan-dao-shou-ye-jie-huo-pian/</id>
+        <link href="https://bacusio.github.io/post/chuan-dao-shou-ye-jie-huo-pian/">
+        </link>
+        <updated>2024-08-13T08:35:04.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🦖旧文存档|解构东方不败的人物与运动设定 ]]></title>
+        <id>https://bacusio.github.io/post/jiu-wen-cun-dang-orjie-gou-dong-fang-bu-bai-de-ren-wu-yu-yun-dong-she-ding/</id>
+        <link href="https://bacusio.github.io/post/jiu-wen-cun-dang-orjie-gou-dong-fang-bu-bai-de-ren-wu-yu-yun-dong-she-ding/">
+        </link>
+        <updated>2024-08-01T07:03:52.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为了做好游戏学关卡设计！]]></title>
+        <id>https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-guan-qia-she-ji/</id>
+        <link href="https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-guan-qia-she-ji/">
+        </link>
+        <updated>2024-05-10T06:59:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为了做好游戏学C#！]]></title>
+        <id>https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-c/</id>
+        <link href="https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-c/">
+        </link>
+        <updated>2024-02-14T06:55:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二0二二目睹之怪现状]]></title>
+        <id>https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/</id>
+        <link href="https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/">
+        </link>
+        <updated>2022-12-31T13:43:18.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[许的GameJam全记录（2021-）]]></title>
+        <id>https://bacusio.github.io/post/xu-de-gamejam-quan-ji-lu/</id>
+        <link href="https://bacusio.github.io/post/xu-de-gamejam-quan-ji-lu/">
+        </link>
+        <updated>2022-06-26T08:46:16.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🖥 许的数据库]]></title>
+        <id>https://bacusio.github.io/post/xu-de-shu-ju-ku/</id>
+        <link href="https://bacusio.github.io/post/xu-de-shu-ju-ku/">
+        </link>
+        <updated>2021-08-21T13:53:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📚读阿尔贝·雅卡尔 | 2025：写给未出世的你]]></title>
+        <id>https://bacusio.github.io/post/du-a-er-bei-ya-qia-er-or-2025xie-gei-wei-chu-shi-de-ni/</id>
+        <link href="https://bacusio.github.io/post/du-a-er-bei-ya-qia-er-or-2025xie-gei-wei-chu-shi-de-ni/">
+        </link>
+        <updated>2021-08-10T14:59:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二0二0目睹之怪现状]]></title>
+        <id>https://bacusio.github.io/post/er-0-er-0-mu-du-zhi-guai-xian-zhuang/</id>
+        <link href="https://bacusio.github.io/post/er-0-er-0-mu-du-zhi-guai-xian-zhuang/">
+        </link>
+        <updated>2021-01-01T13:50:38.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📚|我们为什么要合作？]]></title>
+        <id>https://bacusio.github.io/post/orwo-men-wei-shi-me-yao-he-zuo/</id>
+        <link href="https://bacusio.github.io/post/orwo-men-wei-shi-me-yao-he-zuo/">
+        </link>
+        <updated>2020-05-19T15:19:27.000Z</updated>
+    </entry>
+</feed>
