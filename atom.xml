@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bacusio.github.io</id>
+    <title>白熊泡面🍜</title>
+    <updated>2024-11-26T02:11:01.602Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bacusio.github.io"/>
+    <link rel="self" href="https://bacusio.github.io/atom.xml"/>
+    <subtitle>修剪技能树
+BiuBiuBiu~</subtitle>
+    <logo>https://bacusio.github.io/images/avatar.png</logo>
+    <icon>https://bacusio.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 白熊泡面🍜</rights>
+    <entry>
+        <title type="html"><![CDATA[🔎 TG电报使用指南]]></title>
+        <id>https://bacusio.github.io/post/tg-dian-bao-shi-yong-zhi-nan/</id>
+        <link href="https://bacusio.github.io/post/tg-dian-bao-shi-yong-zhi-nan/">
+        </link>
+        <updated>2024-10-14T08:35:06.000Z</updated>
+        <content type="html"><![CDATA[<p><code>大概两年前，还是一名新媒体运营的我，想着活学活用，增加此频道的关注度，吸引更多人过来，于是给很多个索引频道/Telegram 群组投递了频道链接，但不幸触发某种垃圾消息机制？大号惨遭官方禁言🚫， 期间也有申诉过，因为我确实没有给个人发过垃圾消息嘛？在索引频道or Group发自己频道的链接也不违规啊，但一直没卵用，而且它也不显示究竟是永久禁言还是有期徒刑。直到这周末，我找ChatGPT帮我润色了一下然后去申诉，今天发觉申诉悄咪咪成功了，我大号终于可以**正常发言**了❗️❗️</code><sub>小声哔哔哔...不愧是雅思能考出7.5高分的ChatGPT</sub></p>
+<p>🚫假设你的账户因为某些原因像我这样被SPAM 封禁聊天权限，可以找申诉机器人@SpamBot，<br>
+https://t.me/SpamBot</p>
+<h1 id="解禁之后我决定来写一篇tg使用指南来庆祝一下~">✅解禁之后，<em>我决定来写一篇TG使用指南来庆祝一下~！</em></h1>
+<p>个人很喜欢TG的架构设计，不懂编程的普通网友刚刚上手就能TG体验到的简洁但很关键的对话功能。<br>
+但如果想要更加<em>锦上添花</em>，TG也给你留置了模块化的选项，基本上只需要你自己激活这个开关就能使用，无需应对什么编程上的难点或挑战。<strong>但电报官方的工作人员我很怀疑PC端和手机端是两波人在独立工作，导致出现A功能只能在手机端实现，B功能只能在PC端实现的奇怪局面........他们有很多单向可行两端不兼容的情况。请注意有些功能只能在PC端开启，有些则只能在手机端开启</strong></p>
+<h1 id="添加评论区功能">&lt;👍添加评论区功能</h1>
+<p>古早时期，添加评论区功能还需依靠别人写的Bot，而且功能孱弱，有的评论功能甚至只能提供👍👎两个布尔代数般的互动评论方式。现在的电报已经自带Channel Comments，只需要给频道绑定一个群组关联起来就行了~<br>
+<code>如何开启：频道管理→关联群组→添加一个群组, 就OK了. </code><br>
+但神奇的是，假设你在关联群组内发言，内容并不会显示在频道的评论区里，它这个单方向的留言逻辑还挺feature的?但我还蛮喜欢的，至少频道的评论数量也不会多到乌烟瘴气。</p>
+<h1 id="添加投票功能">&lt;💭添加投票功能</h1>
+<p><code>如何查看：在PC端点击在自己的频道右上角的🚦，点Creat Poll,就OK了.</code><br>
+上一次使用投票功能是今年三月底吧，当时的我想知道新冠病毒是不是正在肆虐了，因为我出门吃个饭就开始刀片嗓了，当时投票结果是有一半的人都说自己感冒ing</p>
+<h1 id="频道分析功能与助推变现">&lt;💪频道分析功能与助推变现</h1>
+<p>当频道成员超过500人，TG就会自动给你频道分析功能<br>
+<code>如何查看：手机端点击右上角自己的频道头像→频道设定→统计和助推，就OK了.</code><br>
+以本频道为参考样本，每个帖子大概浏览次数300-500左右，久远一点的帖子能有一两千的浏览数，有44.9%的关注者还愿意开启通知接受我的动态，真是多谢嗮~~！同时也能看到关注者们有80%是使用简体中文的国内人，2%是使用繁体的香港人or台湾人or海外华人，还有15%使用英文的外国人，感觉本频道比黑神话还国际化呢~<br>
+另外，点击最近的帖文还能看见哪个公开频道转发了我的帖文，我的贴文总是看到私人分享特别多😀，希望它有帮到你们的生活~<br>
+至于助推和创收，虽然TG很豪气的分享50%广告收入给我作为奖励，很遗憾本频道人数不算特别多，创收奖励连💎1都没有呢</p>
+<h1 id="添加翻译功能">&lt;🌟添加翻译功能</h1>
+<p>古早时期，添加频道的翻译功能只能依靠别人写的Bot，我用的那个Bot时好时坏，而且机翻味浓郁。现在电报已经自带翻译年糕功能了，只是你需要手动开启。<br>
+<code>如何开启：在PC端点击设置Setting→语言Language→显示翻译按钮Show Translate Button,就OK了</code><br>
+<img src="https://bacusio.github.io/post-images/1728899519143.png" alt="" loading="lazy"><br>
+<strong>但这翻译功能只支持单一语言的翻译，中英混合它就无能为力┑(￣Д ￣)┍了，所以我现在尽量都只使用简体or繁体or英文来发布单条讯息</strong></p>
+<h1 id="查找更多相似频道">&lt;✈查找更多相似频道</h1>
+<p>古早时期，你想要刷到更多有趣的频道，只能自己在🔍搜索框漫无目标搜搜看，或者刷索引频道。现在电报已经自带频道推荐功能了，但这一功能只能看手机端查看。<br>
+<code>如何查看：手机端点击右上角自己的频道头像→往下拉→选择相似频道，就OK了.</code><br>
+以本频道为实验样本，虽然没有Telegram Premium 不能显示所有相似频道，但也能看到本频道的十个相似频道了，基本上一个我都没有关注过，我也要看看到底他们跟我相似在哪里🤡。<br>
+<img src="https://bacusio.github.io/post-images/1728901438288.jpg" alt="" loading="lazy"></p>
+<h1 id="搜寻更多历史消息">&lt;✈搜寻更多历史消息</h1>
+<p>关注本频道时间比较久的人，应该有发觉我的更新周期很诡异，有时隔半年更新一次，有时天天发长篇书摘刷屏大家🤡，那么要怎么搜历史消息呢，TG官方自带的🔍搜索功能实在是对中文关键词太不友好了，所以我现在用的是别人的Bot。<br>
+<code>如何查看：手机端点击此频道右上角的放大镜🔍→根据Tag来选择你想看的历史信息→就OK了.</code></p>
+<p>📕发布</p>
+<h1 id="️未完待续先挖个坑">&lt;🗓️未完待续，先挖个坑...</h1>
+<p>TG还有很多功能，但我不打算一一探索，因为目前我没有这个需求。懂得太多，很容易就会被不必要的包袱给绊倒。也许以后需要的时候，我就会继续更新下去。<sub>TG上当然也有很多骗子，因此我推荐你尽量避免在TG上跟陌生人对话，也不要用安卓手机or电脑轻易点击陌生人发来的不可靠链接or不可靠PDF</sub></p>
+<p>现在的我，并不打算用这个频道来变现或是变得有名气。我在这个频道发布的大部分内容都是我用心筛选过，或者我用自己能懂的语言进行转述，这是人工智能或者他人无法代劳的工作，当我把内容汇聚到这个频道之后，我会再进一步把他们放入我本地的Zettelkasten笔记里面，作为我的第二大脑存在。</p>
+<p>而大家无论是批评👎💩或者鼓励👍，我都内心给出默默的感谢，因为你们都在提醒我，要去更深一步探索我的大脑，去清理掉那些曾经我视为珍宝放在大脑里的粪粪。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用过斋月般的意志，治疗失眠症]]></title>
+        <id>https://bacusio.github.io/post/yong-guo-zhai-yue-ban-de-yi-zhi-zhi-liao-shi-mian-zheng/</id>
+        <link href="https://bacusio.github.io/post/yong-guo-zhai-yue-ban-de-yi-zhi-zhi-liao-shi-mian-zheng/">
+        </link>
+        <updated>2024-09-29T17:39:24.000Z</updated>
+        <content type="html"><![CDATA[<p>突然对一切都不满意导致失眠，比如说：</p>
+<ul>
+<li>身边人因为疏忽犯了小错而导致我暴怒，比如说我妈开柜子取东西，结果柜子里的杂物砸破了我买的手工陶瓷盘子。</li>
+<li>身边总是有人走来走去，身边有人总是反复一边看手机一边又望着自己，然后他不好意思又看手机，然后又产生看我的欲望，如此反复反复直到我露出了一个鄙视他的眼神。</li>
+<li>朋友邀请我出去玩，但是我因为前一晚睡眠很差身体很不舒服，于是对出门玩这件事感到心烦意乱。</li>
+<li>老爸突然对我讲述家庭中非常沉重的黑历史，导致我发生内存随机泄露意外事件。</li>
+</ul>
+<p><strong>The Final Solution</strong><br>
+①找个安全又熟悉的环境，让自己的感官休息。<br>
+②像阿拉伯人斋月白天不吃饭那样，前一天失眠了就选择白天不睡觉也不躺床上玩手机。虽然一整天都会很困，像我就六点半困到连晚饭都没来得及吃就一觉睡到第二天早上七点了。<br>
+③每天运动30分钟，类似正电荷负电荷传到那样，消耗掉一部分身体没有释放的能量，这样才有空间让新的能量进来。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤲 哲学家们如何应对挫败感？]]></title>
+        <id>https://bacusio.github.io/post/zhe-xue-jia-men-ru-he-ying-dui-cuo-bai-gan/</id>
+        <link href="https://bacusio.github.io/post/zhe-xue-jia-men-ru-he-ying-dui-cuo-bai-gan/">
+        </link>
+        <updated>2024-09-13T09:44:38.000Z</updated>
+        <content type="html"><![CDATA[<p>#人类启示录#</p>
+<p>❶黑塞：失败创作法<br>
+黑塞认为自己命中注定生活不会快乐和幸福，而且总是处于软弱和失败的地位，但如果生活中没有阴影和牺牲，他的创作源泉就会变得浑浊，最终枯竭。所以世界以痛吻我，那我就拿来创作赚点版权费吧~！【我心情愉快，生活丰富多彩，但我总觉得自己听到了内心深处被填塞的源泉在潺潺流动，在低声抱怨。幸福或者不幸不是凭自己的力量能得来的。人只能接受降临的幸福和不幸，自然接受的方式可以大不相同。至于我呢？我不能再作硬性的尝试，把我的生活转到朝阳的一面，而是接受注定要我接受的，并尽自己之所能地承受它，使它向好的方面转化。】</p>
+<p>❷康德：来世算账法<br>
+康德认为上帝和来世会保证我们的幸福，这一世我们遭遇的所有失败和逆境，哪怕是好心办了坏事，上帝和天国都会替我们解决问题的，一切遭遇的坏事都将在彼岸补偿回来。所以，不用担心<sub>就放心去吧，自由地飞，有天使👼在你身旁</sub>！只要你是好心好意有道德的，上帝就与你同在，会让你进入天国。</p>
+<p>❸马克思：历史唯物辩证法+宏大叙事法<br>
+历史唯物辩证法：马克思认为人类的历史是螺旋上升的，你的失败是为了下次的成功做铺垫。失败和成功都是历史周期的一部分，失败不可避免，失败是成功不可缺少的重要环节！<br>
+宏大叙事法：马克思说你是伟大无产阶级的一部分，你的人生意义寄托在伟大无产阶级身上，即使你快不行了，没有机会再奋斗和成功了🥲，但你的阶级同志会继承你的衣钵。是的，革命尚未成功，其他同志仍需努力，你的人生意义会融化在伟大无产阶级血脉里的，就放心前进吧！</p>
+<p>❹尼采：享受快乐法<br>
+享受快乐法：尼采认为这些挫败感是无法被克服的，只要人类一行动，就会导致罪恶，活着就是犯错。但如果你坦荡荡出于自我本色地活着，也许可以获得强烈的快乐🤡。</p>
+<p>❺陀思妥耶夫斯基：浪漫主义的丧失行动躺平法<br>
+丧失行动躺平法：陀思妥耶夫斯基在《地下室手记》塑造了一个试图在自己的屈辱感中寻找享受的人，他在地下室居住了四十年。总是无所事事枯坐着，深感无聊之际，那就装腔作势一番，给自己臆想一整套奇异的经历！然后编造一整套虚假的生活，就这样找个理由凑合生活下去。</p>
+<p>地下室人的思路可以分为以下几种：<br>
+1）聪明人只能什么都不做，能做的一切，就是封闭自己的五官，沉浸到冥思玄想之中。一个人报复他人，因为他觉得这是正义的行为。但如果我被人打了一下，我不会心安理得打回去，因为连愤恨的情绪都没有。我之后反思事态，想搞清楚事情为什么会发生，但找不到最原始的原因，最后只好漠然置之。<br>
+2）行动家是愚蠢的。如果我不能有把握做一件事情，能对世界造成彻底影响。如果我无法保证自己是正义的，我就无法行动。我主张……捍卫自己的任性，并且捍卫那在我需要时能为我的任性提供的保障。<br>
+3）人永远不会拒绝真正的苦难，也就是说永远不会拒绝破坏和混乱。只要我还活着，还怀着希望，那么，哪怕我为那座大楼添上一小块砖。可究竟为何我天生就有这样的愿望呢？莫非我生下来就只是为了得出这样的结论，即我的整个生存都只是一场骗局？难道这就是人生全部目的之所在？我不信。归根结底，先生们：最好还是什么事也不做！最好还是自觉的懒惰！因此，地下室万岁！</p>
+<p>啊，但是，去他的吧！重要的是，我跳出困境了。</p>
+<p>❻弗洛姆：逆风翻盘反击法<br>
+逆风翻盘反击法：当弗洛姆（Erich Fromm）感到痛苦或沮丧时，他会试图用这四种相互关联的长期安定剂作为疗法。<br>
+1）将日常生活安排得有规律且可以预测。<br>
+2）一旦确定好主题（目标）后，弗洛姆就会积极地展开每一个写作项目，通过二分法保证自己文章的稳定性和结构性，努力使自己保持平静。<br>
+3）寻找知识分子和艺术家的欢乐团体，参与聚会。<br>
+4）内心的精神性。弗洛姆认为精神性是某种位于自我内部但同时超出自我和社会的东西，最重要的是这种精神是发自内心的呼吁，真挚的精神追求可以包裹/保护/支撑自我，因而可以稳定一个人的生活。</p>
+<p>⑦伊壁鸠鲁：<br>
+1/ Don't fear god Ἄφοβον ὁ θεός<br>
+不惧天神，因为他们并不存在，即便存在，也与人类井水不犯河水。</p>
+<p>2/ Don't worry about death ἀνύποπτον ὁ θάνατος<br>
+不怕死亡，因为无论人的灵魂还是肉体都由原子构成，人死后并无天堂，地狱，来世，只会把构成自己身体的原子质料重新还给大自然。痛苦的来源是人类的知觉，当人死后知觉也会随之消失，也意味着痛苦的终结，因此死亡本身并不痛苦。</p>
+<p>3/ What is good is easy to get καὶ τἀγαθὸν μὲν εὔκτητον<br>
+人生在世，最重要的是开心快乐，终极的快乐意味着身体的无痛苦和心灵的安宁。</p>
+<p>4/ What is terrible is easy to endure τὸ δὲ δεινὸν εὐεκκαρτέρητον<br>
+痛苦并不可怕，因为剧烈的痛苦通常都比较短暂，而且正如风雨之后总会有彩虹一般，痛苦过后，快乐也会如期而至。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📈传道受业解惑篇~Eugenia Cheng范畴论数学家]]></title>
+        <id>https://bacusio.github.io/post/chuan-dao-shou-ye-jie-huo-pian/</id>
+        <link href="https://bacusio.github.io/post/chuan-dao-shou-ye-jie-huo-pian/">
+        </link>
+        <updated>2024-08-13T08:35:04.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="chain-of-intelligence如何得到智慧"><strong>Chain of Intelligence如何得到智慧？</strong></h2>
+<p><img src="https://bacusio.github.io/post-images/1723534194333.jpg" alt="" loading="lazy"><br>
+Eugenia Cheng 尝试用范畴论提炼出与智慧有关联的东西，她认为是要合乎逻辑+有强大的推理能力+乐于助人。<br>
+Eugenia告诉我们，逻辑是从一些假设的概念出发，然后你来推论这些假设是否成立。[有人说你在假设一些没发生的事，那就意味着你不符合逻辑。]Eugenia表示这不是True.[有些人说他们不相信同性恋婚姻，因为他们认为婚姻是男人和女人之间的事情。]听起来很有逻辑，但只是把同样的一个事情讲了两次。因为他们不相信同性恋婚姻，所以认为婚姻不是同性恋的事情。类似的逻辑还有[我喜欢这张桌子，因为我喜欢这张桌子。]<br>
+以上逻辑都是逻辑，但不是假设能够成立的那种合乎逻辑，合乎逻辑Reasonable是要求你使用逻辑Logic，而且有一个Framework框架用来测试自己假设的逻辑是不是合乎逻辑。</p>
+<p>而强大的推理能力，指的是推理的链路很长，[我喜欢这张桌子，因为我喜欢这张桌子。]这种推理就只是在原地踏步。但如果你能从一个非常漫长的角度来解释事情到底为什么会发生，把某个事件某个案件追溯到First Principle，你就破案了！(智慧女神在向你招手)<br>
+因此Powerfully Logical 是需要你使用逻辑，并且有技术地让思维走得很远，把每一个孤立的点串成线。</p>
+<p>至于乐于助人（宜人性），Eugenia Cheng解释到如果你只是坐在那里完成一个又一个对任何人都没有帮助的逻辑推论，这意味着这个人是不太聪明的样子。<br>
+聪明机智需要的乐于助人要求你投入情感，同时提供帮助人的技巧，这又需要你识别出他人的困难和需求。你要看见他人的难处，而不是施舍自己拥有的但别人不需要的。Eugenia Cheng举例我们的教育制度，老师如果不投入情感，就只会教授一些冷酷的知识点，要求学生遵守这些那些规则，导致学生在学一些东西的时候就会没有感觉，听不进去。是什么导致老师无法乐于助人呢？有可能是老师本身很古板，也可能是老师也需要遵守一些古板的规定，老师必须要满足某些课程标准才能不扣奖金拿到工资。老师必须给学生出测试题、确保学生能通过测试，于是在规定下，学习变成了没完没了的试卷和小测小考期中考期末考全市统考全国高考。这一切会让大部分老师和学生在一场徒劳的战斗中，陷入情绪低落的状态。因为它遵守了规则，却违背了人的情感体验。而情感是出于真实的，前面提到的逻辑则是从假设出发的。(你面前有一个屎味巧克力和巧克力味的一坨便便💩，情感上大部分人会感到恶心两个都不想吃，但如果老师不投入情感也觉得它恶心，老师就只会视而不见逼学生吃光它们，一点也不许剩。)</p>
+<h2 id="chain-of-stupidity-如何实现愚蠢"><strong>Chain of Stupidity 如何实现愚蠢？</strong></h2>
+<p>Eugenia Cheng表示还存在一个愚蠢理论：每个群体都拥有相同比例的蠢货，不管是街道小贩、清洁工、警察还是领导、政客，蠢货的比例都是一样的。</p>
+<p>把愚蠢和聪明的程度定义在坐标系上，x轴是利己，y轴是利他。如果你只选择利己而损害了他人，那么你是强盗，50%的愚蠢；如果你只选择利他而伤害了自己，大家会说你很不幸，留下了自己的老婆孩子就这么牺牲了，那么你是烈士，50%的愚蠢;Eugenia Cheng想了很久，因为她觉得为别人牺牲是高尚的行为啊，多数女人和某种拥有高尚精神的男士都会这样做，他们都把别人放在了第一位😢。<br>
+但如果你不利己也不利他，那就是100%的愚蠢。而最后一个象限，如果你利己又利他，就是这个愚蠢理论的反面例子，一种有机制聪明的选择。<br>
+<img src="https://bacusio.github.io/post-images/1723538575166.png" alt="" loading="lazy"><br>
+Eugenia Cheng认为当你的感受和行为共同作用，尽可能做一些利己又利他的行为，就会形成良性循环，帮助自己远离愚蠢。</p>
+<p>🐉来源：<a href="https://www.youtube.com/watch?v=8emPcpfqPRU&amp;list=PLYkr4SGZDioeDgW429ETzO_x5DHbVWxll&amp;index=1&amp;t=1s">英国皇家科学院讲座How to Think Like a Mathematician</a></p>
+<p>#【Eugenia Cheng的范畴论】<br>
+如果我们不将性别与个性分开，我们就无法进行控制实验，因为我们会混淆问题。这种缺乏明确方向的问题，会迫使我们进行一种元讨论。</p>
+<p>比如说，一些人认为所有人类女性共同拥有的属性只能由那些拥有特权的女性定义：白人女性（或者更确切地说，富裕的白人女性，不管异性恋者或是同性恋者）。</p>
+<p>但是一些人又说，世界上还有许多其他问题，比这些女性问题更严重，比如种族主义，恐同和经济不平等诸如此类的。于是我们被哪个问题更重要这样紧张激烈的辩论分散了注意力。</p>
+<p>我怀疑，唯一从这些元讨论中受益的是那些掌握权力并且想要保持权力的人。女性们在女权主义的含义上争吵，争论谁给予了哪个女性团体更多空间，以及争论谁遭受了最严重的虐待和伤害。</p>
+<p>除此之外，被歧视的人们 - 根据种族、性取向、财富和社会地位、教育、学识、性别、体能和运动能力进行分类，都努力发出自己的声音。任何感到不公的人们都表达他们的不同意见，而权威们则高兴地摩拳擦掌，巩固着他们的权力。</p>
+<p>幸运的是，数学在定义和处理元讨论时非常有用。在数学中，我们提出一种理论，提供一个基本定义，通过探索一些关键例子进行说明。然后通过证明该理论的无处不在和实用性来证明它的有效性。</p>
+<p>这是有用的，因为它能够解决特定的问题，能够更清晰思考。我在这里提出的范畴论同时做到了这两点。</p>
+<p>例如，方程式1 + 2 = 2 + 1类似于方程式2 + 5 = 5 + 2。但在数学中，我们说：对于任何数字a和b，都有a + b = b + a。这种抽象一方面有助于澄清概念，另一方面也开放了一种概括，涵盖了更多未知的例子。</p>
+<p>也许我们尚未发现是什么导致了某个女性不爱发言的行为，也不知道如何进行干预以进行改变她。但是通过识别重复出现的原因，去除不相关的细节，并集中力量在重要的问题上，我们就已经迈出了第一步。这是构建一个良好理论的基本前提。抽象也可以帮助我们思考模式背后的原因。</p>
+<p>数学是不断思考为什么，不断深入挖掘，寻找更加基本答案的过程。对于为什么女性在混合团体中倾向于说话较少，一个肤浅的答案可能是：“因为她们是女性”。如果我们将这个理论置于实践中，很可能会发现有些女性其实能够表达自己的声音，而有些男性反而不能表达自己。</p>
+<p>或许我们会发现在性别和发言能力之间存在统计相关性，但在抽象的数学中，我们试图深入探究：为什么作为一个女性在统计上会导致这种现象？如果这仅仅是一个统计相关性，而不是真正的因果关系，我们是否能够进一步挖掘并找到因果关系？按照这种方法进行，【我们会发现，是或不是女性并不是那么重要，关键是人与人之间的关系，以及不同个体之间如何相互作用。】（有人喜欢在陌生的场合发言吹牛，有人只喜欢在有熟人的场合聊天发言）</p>
+<p>【把重点放在关系而不是内在特征上的思想】，在现代数学中与一个重要的进展相等：范畴论的兴起，也是我的研究领域。【范畴论】的思想被认为是数学的一个“基础”分支，因为它研究数学的运作方式。在这之前有集合论，它有着不同的意识形态和非常不同的技术方面。【集合论】基于数学起源于成员关系的思想，即一切都始于询问一个特定元素它是否属于一个特定集合。</p>
+<p>你可以把它想象成某些人不顾一切想加入组织的困扰（火速结婚生子拥有一个家），无论是字面意义上的俱乐部，比如那种老式而独特的绅士俱乐部，还是更抽象的政治&quot;部落&quot;，这是那些拥有相同观点的人共享归属感而建立的。</p>
+<p>范畴论则有一个不同的出发点：关系。它基于这样一个观点，通过观察事物或人与周围环境的关系，我们可以理解它们的很多方面。一个集合可以被表示为一个闭合线中的元素集合，其内在特征决定了包含和排除关系。有点像一个家谱，只是我们不是看父母和子女，而是看哪些数字与其他数字之间有关系，如因子。</p>
+<p>从某种角度来看，这只是一个微小的观点转变，然而它给现代数学赋予了新的方向。回到我们的话题上来，集合论的一种方法是基于一些内在特征来定义地球上的女性群体，这些特征可以是染色体、生殖器官或激素，具体取决于说话者的关注点。实际上，除了它们并不完全等价之外，这些定义都不像人们想象的那样清晰明了。因此，我将采用范畴论的方法，即关注人们如何相互作用而不是他们的生物描述。</p>
+<p>🐉来源：《X+Y. A Mathematician’s Manifesto for Rethinking Gender》 - Eugenia Cheng #书摘 #读书會</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🦖旧文存档|解构东方不败的人物与运动设定 ]]></title>
+        <id>https://bacusio.github.io/post/jiu-wen-cun-dang-orjie-gou-dong-fang-bu-bai-de-ren-wu-yu-yun-dong-she-ding/</id>
+        <link href="https://bacusio.github.io/post/jiu-wen-cun-dang-orjie-gou-dong-fang-bu-bai-de-ren-wu-yu-yun-dong-she-ding/">
+        </link>
+        <updated>2024-08-01T07:03:52.000Z</updated>
+        <content type="html"><![CDATA[<p>徐克的武侠片《笑傲江湖：东方不败》与同一时代其他影片的差异有以下几点：<br>
+1.使用了同性恋题材，但又不是同一时期港产片里对同性恋嘲笑、丑化同性恋说他们是娘娘腔这样的口吻。东方不败的人设在电影里被徐克修改成了兼具野心狠毒和痴情浪漫的性格，在电影里他从一个俊美男性变成纯粹女子，从头到尾都是强大而又美丽的化身。一方面杀伐果断，行动残暴但又干净利落，另一方面他与令狐冲花前月下、林中飞舞、海里饮酒是非常打动人心，让人印象深刻的浪漫场面。<br>
+2.《笑傲江湖：东方不败》这部电影的背景是古代的，但角色拥有现代人格。我们如果回过头看<br>
+很多历史人物是非常迂腐的，即使有唐明皇和杨贵妃这样的爱情故事，但历史结局是唐明皇选择要江山不要美人，让杨贵妃去死。那些深受封建思维局限的古代人基本都是这样的，政治大于个人感情。而东方不败这样一个强大又美丽的角色，最后却是为爱而死的。他飞针射向令狐冲，但犹豫片刻又打飞了，殊死决战之际他望着令狐冲的眼睛，看到过往的画面，结果注意力不集中被令狐冲刺伤，他反问令狐冲为什么伤害他。这也没有什么伤势大碍，最后是他自己选择自杀，跟令狐冲说“希望你记得我。”</p>
+<p>3.超脱现实的虚幻美感。电影一直在营造一个虚无缥缈的武侠世界，相比动作片，它是反现实的，是人脑里对残酷现实的一直美好向往和虚拟想象。这个世界的武功比的不是最强，而是一种虚化的意境之美，每一种武功都有自己的意境美。举例说明就是令狐冲剑法的弧线美和李连杰四肢舒展的腾空劈叉的体态美。而林青霞扮演的东方不败体现的是一种轻盈的美感，她衣带飘飘，在空中轻盈自如地御风而行，“轻轻扇了扇手中的折扇，围攻她的华山弟子们像尘埃般被这折扇的微风扇的四下散开。”</p>
+<p>4.史诗般的空寂感。电影中一开场就展示了政权互换后，白骨成堆的惨状，江湖一片腥风血雨，人人自危的背景，任我行被放出来后，政权再次出现动摇，双方矛盾激化，大战过后，又是白骨成堆。唱着笑傲江湖的华山弟子全军覆灭，剩下令狐冲和小师弟，任我行剩下女儿和一个手下。东方不败自杀死了，他的爱人诗诗也服毒离他而去。最后只剩下任盈盈抱着琴呆呆看着令狐冲<br>
+的船离开，船上没有琴、也没有人唱着笑傲江湖。</p>
+<p>5.《东方不败》的人物运动方式以及攻击设定非常有意思，动态的打斗也非常有美感。导演给角色设定了固定的运动轨迹，这些角色在江湖中碰撞出了多种多样的打斗变化。相比之下，动作片的打斗是类似于横板格斗，是在平行的空间运动。<br>
+东方不败一出场就像鸟在空中抓捕猎物一样，把敌人的头给拧了下来，后续东方不败的运动方式通通都像鸟一样，都是从空中一点往下俯冲的运动轨迹。要么是跟令狐冲在竹林里御风而行，要么就是直接站立树的顶端、房顶上，总之从未出现过用脚在地面走动的镜头，给东方不败的镜头也大多是仰视的拍摄角度。而表现东方不败出场时总会有鸟群出现，东方不败发出大招之后这些鸟群通通又变成了死鸟。<br>
+东方不败的攻击设定是远距离快速向外扫射，举例来说明就是1.用针+线射向敌人2.用折扇折断华山弟子的剑、把敌人撕碎 3.抬手用气息熄灭远处的蜡烛 4.像是机关枪扫射敌人。固定大招葵花挪移大法，也是远距离向外发射，是一种类似炸弹的效果，在电影里一次炸毁了茅草屋，一次炸毁了城墙导致令狐冲、任盈盈、小师弟、东方不败面临掉下悬崖的危险。</p>
+<p>而任我行一出场就像一颗被固定住的大树，剧情说他单纯依靠喝水也能活着，但他被令狐冲救下，他又开始喝人血来补充自身营养。他的运动方式也跟大树一样，一般是定在原地等敌人靠近，也从未出现过用脚在地面走动的镜头。而表现任我行个人出场镜头时总是在森林里，任我行把树枝吸走了还不够，甚至把树皮也吸走了。</p>
+<p>任我行的攻击设定跟东方不败正好相反，是远距离向内拉的攻击轨迹，举例说明就是用琵琶骨（或者吸星大法）把敌人吸干吸成球，还有在森林里向下从土地里挖出《葵花宝典》都能体现这一点。任我行和东方不败的攻击设定相反，在结尾的决战，两人用针+线、琵琶骨+铁链的拔河对接进行了呼应，最后结果是东方不败使用策略，先松手借力打力，让任我行被他自己的琵琶骨击中。</p>
+<p>而令狐冲则是弹珠般的运动方式，在电影里他多次出现用脚踩地、踩马匹，弹射向空中同时又自我旋转的运动轨迹。他用剑攻击时也有反弹和翻跟斗般的运动轨迹。电影剧情上也体现这一点。他不停地在小师弟（归隐牛头山）、任盈盈、诗诗（东方不败）三人来回反弹打转。一开始剧情是要跟华山弟子去归隐山林，但是看到任盈盈的辫子，改变主意去救任盈盈，结果把任我行救出来了，任我行和东方不败的大战一触即发，他又改变主意要归隐山林，天还没亮就出发，但发现身上没酒，又改变主意去找诗诗（东方不败），总之电影里的很多变数都是令狐冲直接或间接导致的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为了做好游戏学C#！]]></title>
+        <id>https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-c/</id>
+        <link href="https://bacusio.github.io/post/wei-liao-zuo-hao-you-xi-xue-c/">
+        </link>
+        <updated>2024-02-14T06:55:19.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>■学习是为了什么？</h1></li>
+<li>
+<hr>
+</li>
+</ul>
+<hr>
+<p>Building a Legacy of Kindness and Joy. ‍One can never give too much kindness.It‘s a currency which never runs out and creates more abundance when it is given away.</p>
+<h1 id="学习进度条">* ■学习进度条————&gt;</h1>
+------------------------------------------------------------------------------
+<hr>
+    ~~202409.30~~
+    ①会写函数式
+    ②创建一个新的CLass(类/族群)
+    ③熟悉变量和数组和流程控制之间的发生关系和概念
+    ④熟悉Unity和脚本的运行关系，脚本通过挂件挂在一个对象身上。改变脚本的代码，可以改变对象和其他对象的互动反应。
+    ⑤熟悉掌握Unity一些关键模块的库，比如文案库TextMeshPro/剧本导入库Ink和inputManager
+    ⑥熟悉掌握如何设定规则和tileset，随机生成rougelike关卡
+<pre><code>&lt;
+</code></pre>
+<p><code>在声明变量时，访问修饰符 - - Private 和 Public 让编译器知道哪些类应该有权访问该字段：</code><br>
+<code>private - 只有当前类才能访问字段或方法。public - 任何类都可以引用字段或调用方法。</code><br>
+<sub>实用而言，选择public可以在Unity面板做实验操控它，但是这个内容很紧要的话，就要在打包游戏时把它改为private，这样信息就不会泄露出去</sub></p>
+<p>2024.02.01 开始学编程<br>
+2024.02.07 学会写键盘与鼠标的操作代码<sub>完成有bug的游戏碰撞功能</sub><br>
+2024.04.02-04 Unity篇：1.UI登录页+血量条 2.游戏架构基础：生成、存储、遍历的代码演示操作<br>
+2024.04.06 Unity篇：UI背包+音乐音效<br>
+2024.06.20  C# 8.0 跟书学</p>
+<h1 id="如何跟一个游戏项目say-helloworld">* ■如何跟一个游戏项目Say HelloWorld!————&gt;</h1>
+<hr>
+<!-- 如何跟一个游戏项目Say HelloWorld! -->
+<p>0.去一个空间宽阔的硬盘大草原<br>
+在命令行敲<br>
+<code>cd d:</code><br>
+1.在命令行敲<br>
+<code>dotnet new console --name LIHAOTIAN</code><br>
+2.安装必须的环境<br>
+<code>dotnet add package Raylib-cs</code><br>
+3.写心爱的代码，写完敲<br>
+<code>dotnet run</code></p>
+<p>4.编译运行代码<code>donnet publish</code></p>
+<h1 id="快捷键in-code-page">* ■快捷键in Code Page</h1>
+<p>删除行 - Ctrl del<br>
+注释行 - Ctrl /<br>
+搜索文件 - Ctrl P<br>
+搜索文档 - Ctrl f<br>
+中断命令行的程序运行 - Ctrl C<br>
+保存代码 - Ctrl S<br>
+侧面页面展示当前画面 Ctrl +I<br>
+进入一个类画面 Ctrl +鼠标左键 or F12<br>
+omishsharp.json  格式化代码 AIT+SHIFT+F<br>
+修改全部代码名字 ？<br>
+规范代码排版 ctrl ait a</p>
+<p><strong>游戏准则须知</strong><br>
+------------------------------------------------------------------------------
+①有void 不需要return，无就强制return<br>
+②代码的语法包括变量声明（Var）、类型（type）定义、函数（function）定义、字段（string）定义、调用函数。语言：if/while/for</p>
+<h1 id="level-0的游戏开发框架">* ■<strong>Level 0的游戏开发框架</strong></h1>
+<hr>
+<pre><code>using System;
+using System.Numerics;
+using Raylib_cs;
+<p>public class LOVEPLAY（项目名）{<br>
+public static void Main{<br>
+（此处省略若干行代码）<br>
+}<br>
+</code></pre></p>
+<p>}<br>
+搞定！一个朴实无华毫无功能不好玩的游戏项目就开发完成！</p>
+<h1 id="level-1的游戏开发">* ■<strong>Level 1的游戏开发</strong></h1>
+<hr>
+<pre><code>输入与输出
+</code></pre>
+<p><code>System.Console.Write（&quot;让玩家输入一段文字回答A&quot;）</code>//输入<br>
+<code>A= System.Console.ReadLine();</code>//把A记录起来<br>
+<code>System.Console.WriteLine($&quot;Move: {ctx.input.moveDir} Fire:{ctx.input.isFire}&quot;);</code>//输出信息给玩家看，显示Move的方向和是否发射了子弹。</p>
+<ul>
+<li>
+{行动模块的布尔代数使用}
+void CheckPlayerinput()
+{
+    bool input_left =Input.GetKey(keyCode.LeftArrow);
+    bool input_right =Input.GetKey(keyCode.RightArrow);
+    bool input_space =Input.GetKey(keyCode.Space);
+    walk = input_left | |input_right;
+    jump = input_space
+}
+//Unity 的 GetKey 方法是當我們按下鍵盤輸入鍵（左/右/空格），會返回一個`TURE`信號，代碼將input_xxx也定義爲bool,然后命名和定义walk和jump状态。
+<p>定位与交叉碰撞检测算法<br>
+------------------------------------------------------------------------------
+public class Program {<br>
+public static void Main() {<br>
+//定义飞机/子弹/敌人的坐标位置<br>
+Vector2 vec = new Vector2(640, 480);<br>
+//定义子弹的数量+子弹的速度+子弹的坐标+子弹的大小<br>
+int[] circles = new int[5];<br>
+circles[0] = 50;<br>
+//定义敌人的数量+敌人的速度+敌人的坐标+敌人的大小<br>
+//敌人有五个，移动方向是左右横向移动，速度30<em>dt坐标是在画面顶部（i，100），大小是20</em>20<br>
+int[] circles = new int[5];<br>
+circles[0] = 50;<br>
+Raylib.InitWindow(640, 480, &quot;Game&quot;);</p>
+<pre><code>  while (!Raylib.WindowShouldClose()) {
+      Raylib.BeginDrawing();
+      //画游戏背景
+      //画飞机在画面底部，玩家可以通过键盘WSAD控制飞机的移动
+      //画子弹在飞机的坐标位置，子弹的数量是5，子弹的速度是100*dt，子弹的大小是10*10，颜色为红色
+       //画五个敌人在画面顶部
+      Raylib.EndDrawing();
+  }
+  Raylib.CloseWindow();
+</code></pre>
+<p>}<br>
+}</p>
+</li>
+</ul>
+<p><strong><sub>【开发语言和模块】</sub></strong></p>
+------------------------------------------------------------------------------[]()
+<ul>
+<li>
+<p>{计算机思维：状态机}<br>
+图灵构造出一台假想的机器，由几个部分组成：（1）一条无限长的纸带。它被划分<br>
+为方格，每个方格内有一个来自有限字母表的符号，字母表中有一个特殊符号表示空<br>
+格。纸带上的方格从左到右依次被编号为 0,1,2,...，纸带的右端可以无限延伸。<br>
+（2）一个读写头。它可以在纸带上左右移动，能读出当前方格里的符号，并能改变该符号。<br>
+（3）一个状态存储器。它用来保存图灵机当前所处的状态。图灵机的所有可能状态的数目是有限的，且有一个特殊的状态，称为“停机状态”。<br>
+（4）一套控制规则。它根据当前机器所处的状态以及当前读写头所指方格内的符号来确定读写头下一步动作，并改变状态存储器的值，令机器进入一个新状态。</p>
+</li>
+<li>
+<p>Player控制的逻辑<br>
+static Vector2 GetMoveAxis() {</p>
+<pre><code>  Vector2 axis = new Vector2(0, 0);
+<p>if (Raylib.IsKeyDown(KeyboardKey.W)) {<br>
+axis.Y = -1;<br>
+} else if (Raylib.IsKeyDown(KeyboardKey.S)) {<br>
+axis.Y = 1;<br>
+}</p>
+<p>if (Raylib.IsKeyDown(KeyboardKey.A)) {<br>
+axis.X = -1;<br>
+} else if (Raylib.IsKeyDown(KeyboardKey.D)) {<br>
+axis.X = 1;<br>
+}</p>
+<p>return axis;<br>
+</code></pre></p>
+<p>}</p>
+</li>
+<li>
+<p>鼓捣数组<br>
+------------------------------------------------------------------------------
+（var）//int[]bullet=new int[6];//定义有6个子弹<br>
+bullet[0]=5;//赋值<br>
+int a =bullet[0];//从数值里取出值</p>
+</li>
+</ul>
+<p>子弹<br>
+Vector2 point<br>
+Vector2 dir<br>
+point =point +dir 点向移动方向移动</p>
+<ul>
+<li>子弹自动移动模块 - Bullet Move<br>
+for (int i = 0; i &lt; bulletCount; i += 1) {<br>
+Vector2 bullet = bullets[i];<br>
+bullet.Y -= 100 * dt;<br>
+bullets[i] = bullet;<br>
+}</li>
+</ul>
+<p>执行子弹的动作，每个子弹都有画面<br>
+新子弹的坐标是子弹夹的坐标<br>
+新子弹朝y轴往上飞，速度100dt<br>
+将子弹夹的数值赋给新子弹</p>
+<ul>
+<li>UI的坐标系布局尺寸和交互<br>
+Button用于点击，归属下层。它不知道高层Panel的存在，要知道高层的信息只能通过1.委托2.interface 3.底层的值（字段）<br>
+Dropdown下拉菜单<br>
+Slider滑轮条<br>
+Toggle 切换是否{ 多选 or 单选 }<br>
+ScrollBar</li>
+</ul>
+<p><strong>坐标系</strong>：Screen Space Camera相机空间坐标 /Screen Space Overlay屏幕空间坐标/World Space 世界空间坐标<br>
+<strong>Pivot支点</strong>中心点位置的百分比</p>
+<p>TIPS：Canvas和EventSystem是Unity UI必备的GameObject</p>
+<h1 id="level-2的游戏开发架构篇生成存储遍历">* ■<strong>Level 2的游戏开发</strong>：架构篇：生成/存储/遍历</h1>
+------------------------------------------------------------------------------
+<hr>
+<h1 id="level-3的游戏开发">* ■<strong>Level 3的游戏开发</strong>：</h1>
+------------------------------------------------------------------------------
+<hr>
+<ul>
+<li>背包系统</li>
+<li>UI的架构和上下级委托沟通方式<br>
+func<T> 这个东东就是委托</li>
+</ul>
+<p>public void logplaylevel 这个代码行为就在找委托</p>
+<pre><code>          &lt;/div&gt;
+          &lt;div class=&quot;toc-container&quot;&gt;
+            &lt;ul class=&quot;markdownIt-TOC&quot;&gt;
+</code></pre>
+<li><a href="#%E5%AD%A6%E4%B9%A0%E6%98%AF%E4%B8%BA%E4%BA%86%E4%BB%80%E4%B9%88">* ■学习是为了什么？</a></li>
+<li><a href="#%E5%AD%A6%E4%B9%A0%E8%BF%9B%E5%BA%A6%E6%9D%A1">* ■学习进度条————&gt;</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%B7%9F%E4%B8%80%E4%B8%AA%E6%B8%B8%E6%88%8F%E9%A1%B9%E7%9B%AEsay-helloworld">* ■如何跟一个游戏项目Say HelloWorld!————&gt;</a></li>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AEin-code-page">* ■快捷键in Code Page</a></li>
+<li><a href="#level-0%E7%9A%84%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6">* ■<strong>Level 0的游戏开发框架</strong></a></li>
+<li><a href="#level-1%E7%9A%84%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91">* ■<strong>Level 1的游戏开发</strong></a></li>
+<li><a href="#level-2%E7%9A%84%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%9E%B6%E6%9E%84%E7%AF%87%E7%94%9F%E6%88%90%E5%AD%98%E5%82%A8%E9%81%8D%E5%8E%86">* ■<strong>Level 2的游戏开发</strong>：架构篇：生成/存储/遍历</a></li>
+<li><a href="#level-3%E7%9A%84%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91">* ■<strong>Level 3的游戏开发</strong>：</a></li>
+</ul>
+<pre><code>          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+
+    
+      &lt;div class=&quot;next-post&quot;&gt;
+        &lt;div class=&quot;next&quot;&gt;下一篇&lt;/div&gt;
+        &lt;a href=&quot;https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/&quot;&gt;
+          &lt;h3 class=&quot;post-title&quot;&gt;
+            二0二二目睹之怪现状
+          &lt;/h3&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    
+
+    
+
+    &lt;div class=&quot;site-footer&quot;&gt;
+</code></pre>
+<p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a><br>
+<a class="rss" href="https://bacusio.github.io/atom.xml" target="_blank"><br>
+<i class="ri-rss-line"></i> RSS<br>
+</a></p>
+</div>
+<pre><code>  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(&quot;.markdownIt-TOC a&quot;);
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener(&quot;scroll&quot;, () =&gt; {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener(&quot;scroll&quot;, event =&gt; {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) =&gt; {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop &lt;= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop &gt; fromTop) {
+            link.classList.add(&quot;current&quot;);
+          } else {
+            link.classList.remove(&quot;current&quot;);    
+          }
+        } else {
+          link.classList.add(&quot;current&quot;);
+        }
+      } else {
+        link.classList.remove(&quot;current&quot;);
+      }
+    });
+  });
+
+&lt;/script&gt;
+</code></pre>
+  </body>
+</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二0二二目睹之怪现状]]></title>
+        <id>https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/</id>
+        <link href="https://bacusio.github.io/post/er-0-er-er-mu-du-zhi-guai-xian-zhuang/">
+        </link>
+        <updated>2022-12-31T13:43:18.000Z</updated>
+        <content type="html"><![CDATA[<p>“研究心理创伤，无可避免地要面对人类在大自然中的脆弱性，和存在人心中的劣根性。如果事件是大自然的灾难或不可抗拒的意外，目击者很容易就对受害者产生同情心；但假如是人为的，目击者将会在受害者与加害者间陷入矛盾的困境。而在此矛盾中绝无可能保持中立，目击者势必被迫选边站。</p>
+<p>通常会有强大的诱惑力让目击者选择站到加害者一边。因为所有加害者要的只是目击者什么事都不做，他们依赖的是一般人不想看到、听到、谈到恶事的普遍人性弱点。而受害者要的是目击者分担痛苦，受害者寄望于目击者的是行动、承诺和不遗忘。</p>
+<p>加害者为了逃避对罪行应负的责任，会尽其所能促使大众忘记此事。保密和令受害者保持缄默是加害者的第一道防线，一旦事迹败露，加害者就会开始攻击受害者的可信度。如果加害者无法使受害者完全闭嘴，那么他会想办法让受害者的话无人想听。”</p>
+<p>在每一个暴行之后，你可能都会听到意料中的相同辩解之词：</p>
+<p>“根本没有这种事，ta（受害者）说谎！”<br>
+“她太夸大了，这一切都是她自找的！”<br>
+“无论发生过什么事，现在该做的是忘掉过去、迎向未来。”</p>
+<p>看官们，若有选择,你会当受害者或刽子手？</p>
+<p>㈠当一座座城市/一间间医院逐渐失去原本应该有的功能，进入无能为力模式</p>
+<p><img src="https://bacusio.github.io/post-images/1672498964507.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499017077.webp" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499049193.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499054771.jpg" alt="" loading="lazy"></p>
+<p>3.18 湖南卫健委原副主任黄惠勇被判11年<br>
+4.7 陕西卫健委原副巡视员刘增耀被查<br>
+4.14 上海虹口区卫健委干部钱文雄不幸身亡<br>
+4.16 北京卫健委主任于鲁明被查<br>
+4.17 北京科兴生物高管曹晓斌因病去世<br>
+4.20 上海卫健委主任邬惊雷血管性头痛住院<br>
+4.28 山西长治卫健委副主任申宛成主动投案<br>
+5.7 延安卫健委原党委书记 主任郝建东被逮捕<br>
+11.27 核子华曦兰州实验室被通报，实控人张核子今年新成立16家核酸检测机构<br>
+<img src="https://bacusio.github.io/post-images/1672499081971.jpg" alt="" loading="lazy"></p>
+<p>㈡丰县生育八孩的铁链母亲的四重身份：小花梅/李莹/杨某侠/钟某仙<br>
+<img src="https://bacusio.github.io/post-images/1672499104800.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499114760.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499121648.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499127596.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499132353.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499095616.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499143329.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499148900.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499157879.jpg" alt="" loading="lazy"></p>
+<p>㈢普京与乌克兰战争</p>
+<p>首先二月份，马克龙发推说“很高兴见到普京。”<br>
+<img src="https://bacusio.github.io/post-images/1672499173649.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499177396.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499191640.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499195865.jpg" alt="" loading="lazy"></p>
+<p>//然后到了2月20日，普京攻打了乌克兰。</p>
+<p><img src="https://bacusio.github.io/post-images/1672499237030.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499246831.jpg" alt="" loading="lazy"><br>
+被乌克兰导弹误炸AN—225巨型飞机</p>
+<p><img src="https://bacusio.github.io/post-images/1672499256468.gif" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499271989.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499308111.jpg" alt="" loading="lazy"><br>
+被乌克兰自己射歪的导弹命中的基辅机场附近的公寓楼</p>
+<p>//然后<br>
+<img src="https://bacusio.github.io/post-images/1672499319128.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499323727.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499327019.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499330290.jpg" alt="" loading="lazy"></p>
+<p>㈣四月的上海不断辟谣然后又，兑现谣言。<br>
+诸如：<br>
+<img src="https://bacusio.github.io/post-images/1672499349256.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499368233.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499377566.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499387434.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499397974.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499405522.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499412491.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499419283.jpg" alt="" loading="lazy"></p>
+<p>㈤长沙居民自建房倒塌事故53人遇难，死者多为长沙医学院学生<br>
+<img src="https://bacusio.github.io/post-images/1672499467316.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499491647.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499525617.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499536782.jpg" alt="" loading="lazy"></p>
+<p>㈥D2809列车撞上泥石流脱线1死8伤，司机杨勇在事故中殉职。<br>
+<img src="https://bacusio.github.io/post-images/1672499581916.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499597196.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499610433.png" alt="" loading="lazy"></p>
+<p>㈦#唐山一男子搭讪不成与同伴围殴隔壁桌女子<br>
+<img src="https://bacusio.github.io/post-images/1672499627428.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499634790.png" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499638959.webp" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499648664.png" alt="" loading="lazy"></p>
+<p>㈧㈦7.10 河南村镇银行侵吞储户400亿<br>
+<img src="https://bacusio.github.io/post-images/1672499689347.gif" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499694914.gif" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499700466.gif" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499704970.gif" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499709318.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499715086.jpg" alt="" loading="lazy"></p>
+<p>7·8安倍晋三遇刺<br>
+<img src="https://bacusio.github.io/post-images/1672499728817.jpg" alt="" loading="lazy"></p>
+<p>㈧9.17 贵州转运隔离大巴凌晨侧翻，造成27死20伤</p>
+<p><img src="https://bacusio.github.io/post-images/1672499743479.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499779002.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499771266.png" alt="" loading="lazy"></p>
+<p>㈨中国财政赤字有望创下历史新高​<br>
+<img src="https://bacusio.github.io/post-images/1672499786119.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499797032.png" alt="" loading="lazy"><br>
+今年1-11月，中国各级政府的财政支出比收入多7.8万亿元人民币（包括全国一般公共预算和全国政府性基金预算收支）。这个广义的财政赤字为去年同期的两倍以上。且高于2020年​。</p>
+<p>㈩10.29 韩国首尔梨泰院发生踩踏事件，造成150多人死亡，四名中国人遇难​<br>
+<img src="https://bacusio.github.io/post-images/1672499827554.gif" alt="" loading="lazy"></p>
+<p>㈩㈠新疆乌鲁木齐高楼发生火灾致10死9伤<br>
+<img src="https://bacusio.github.io/post-images/1672499840984.png" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499847092.png" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499861965.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499873417.png" alt="" loading="lazy"></p>
+<p>㊣12月的第一个星期六，人们发现自己不再需要做核酸检测。<br>
+<img src="https://bacusio.github.io/post-images/1672499887477.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499898042.jpg" alt="" loading="lazy"><br>
+<img src="https://bacusio.github.io/post-images/1672499915880.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[许的GameJam全记录（2021-）]]></title>
+        <id>https://bacusio.github.io/post/xu-de-gamejam-quan-ji-lu/</id>
+        <link href="https://bacusio.github.io/post/xu-de-gamejam-quan-ji-lu/">
+        </link>
+        <updated>2022-06-26T08:46:16.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="第一次gamejam分析20211229">#■第一次GameJam分析：（2021.12.29）</h2>
+<p>总论：开发两个月了，但进度严重滞后，主策划选择团队原地解散。</p>
+<p>■调查原因与结果分析：<br>
+① 主美兼主策划并没有明确的规划，于是给予团队成员极大的自由度与探索空间，而他本人近期似乎陷入创作瓶颈期，美术效果达不到预期，加上工作通勤时间过长，总之灰心丧气噜<br>
+❷两名程序员游戏开发过程中合作困难，或为看不懂彼此写的代码而苦恼，或为代码风格不统一而捉急，或为突如其来的失业感到焦虑不安，导致游戏开发始终处于重构重构又重构的阶段，游戏Demo遥遥无期，我始终等不到能试玩的那一天。<br>
+❸ 团队中有一名成员就职于猪厂，但为人行为与选择捉摸不定，不可预测，根据他说话的语气和always态度良好的表示，不负责任的猜测，他小时候是那种很容易得到谅解的学霸小孩，游戏开发期间请假多多，借口多多，总是不提前看别人的工作产出做好准备工作，仿佛只有开会那半个小时才进入工作状态，于是要集体zoom开会了发现自己公司屏蔽了信号发现家里vpn坏了连不上会议发现自己肚子饿饿要吃饭饭发现自己一晚上通宵加班到下午一点？总之脑袋困困，于是也不请假直接在会议上说我要先补个觉，我迷惑不解猪厂怎么会请这种摸鱼高手去做游戏呢？maybe是他学历或是简历看起来美轮美奂吧QvQ说不定他是一个很有实力很天才的人，但我真的受不了他这种无预警的不靠谱😓</p>
+<p>■自我分析：而我本人，在游戏开发前期的收获，似乎就是把90年代港产武打片都看了一遍，写了一些心得和档案记录。本来打算依照游戏，写一个coc模组跑团看看好不好玩的，现在虽然团队解散了，模组还是想要写下去，虽然我大学学的魏晋南北朝历史好像忘干净了Q.Q</p>
+<p>//&lt;续&gt;写好基本大纲。安排好了新手教程和故事线索。目前欠缺CP故事线与武侠动作描述。主美似乎又开始画竹子格斗的动作了，似乎还有戏？目前看来是我最废，哈</p>
+<h2 id="第二次gamejam分析202206">#■第二次GameJam分析：（2022.06）</h2>
+<p>总论：跟茶叔学Unity编程，暂定要做Coc跑团卡牌游戏，一个月了看了视频跟没看一样</p>
+<p>■调查原因与结果分析：<br>
+①可能还是要厚着脸皮去请教茶叔，尽量挑他心情好or不加班的时候去</p>
+<p>■自我分析：游戏行业是不是要死在中国了，本来端午要上线steam的新游戏突然说要被审核，我可是连PV都制作好了呀...公司的游戏业务全砍了，自己一直在想着找下家还是在原公司摸鱼顺便学会unity或者雅思。</p>
+<h2 id="叙事策划workshop-20221217-202303">#■叙事策划Workshop （2022.12.17-2023.03）</h2>
+<p><em>第一堂课开学</em><br>
+今天Johnson主要讲了3C的概念，我的理解是把自己的创意更好的表达给同事，叙事传达是一件很重要但我至今没上心认真学过的内容（敲黑板！），有时候我明明写了一个很有灵感的创意，但对方却没认真对待，最后CG部门or剪辑师交出来的作品差强人意，这怎么办呢？刚毕业那几年，我总是侥幸地想，“啊 大概是运气不好吧 | CG部门的人好像又离职跑路了一波人，估计是腾不出人手，才会这样吧！”</p>
+<p>但是现在我改变想法了，这分明就是我没有去跟同事安利我的创意，晒命晒斗志！前几年总是想着是金子，只要眼不瞎怎么都能高度重视的吧！然而我没有想到我们如今正处于一个潮汐般流动的社会，人像蒲公英一样飘荡四海，而且还有短视频这样的东西把人的时间切割切割切割成渣渣，每个人的时间都是24小时，但是细看起来就好像从来也没有完整的二小时假期，到处都是被短视频刷手机的动作把时间填得满满的，岂可休！！</p>
+<p>anyway，说远了，总之要安利自己的创意，要安利自己的游戏，这也是为什么我要做游戏发行！！！</p>
+<p>*课后练习：*以在轮下的学校环境</p>
+<p>胡人入侵北境，军队三年没发粮饷，西林军都督带领士兵叛变了，安居乐业的百姓乡村顿时变成了人不为己天诛地灭的炼狱，他们却美其名曰江湖。为了躲避互相残杀，腥风血雨般的江湖，目睹父亲惨死的少年金蒙德背井离乡，一路逃难，辗转流浪，终于找寻到安宁之地。</p>
+<p>过场画面：金蒙德爬上山顶，眺望远方灯火通明的皇城，露出迷惑的眼神，内心OS：母亲，我这样做，真的对吗？？他会是个好皇帝吗？</p>
+<p>原型人物：十四岁的少年金蒙德，爱好自然，活泼好动，口才十分了得，偶像是竹林七贤的嵇康。</p>
+<p>底层冲突：金蒙德父亲被暗杀，母亲被人掳走，他需要替父报仇，找回母亲，但他内心却是一个十分感性，爱好和平的人，他不愿意双手沾满血腥，成为聪明又无耻的江湖流浪汉，他想要成为像竹林七贤那样的人。是手刃仇人，寻找母亲，还是和竹林七贤呆在桃花源里？金蒙德内心饱受煎熬。</p>
+<p>Lore世界观：社会冲突愈演愈烈，百姓处于水生火热之中，谁也不知道自己明天会不会死去，</p>
+<p>东晋前期的门阀权势滔天，皇帝都不得不退步。皇帝不敢明面上公然挑战士族门阀的地位，但私底下利用杀手对门阀士族进行恐怖威胁。秩序崩坏，人与人失去了信任。</p>
+<h2 id="第三次gamejam-鲸落之城202306-07">■第三次GAMEJAM 鲸落之城（2023.06-07）</h2>
+<p>总论：一群叙事策划们试图写出一个主美自己写不出的故事。我被吸引过去的主要原因是，因为拉我进去项目的人就是上面workshop认识的，而且他们蛮有斗志的，想要把游戏带去科隆游戏展。但三个礼拜后，我就敲起了退堂鼓...最后因为对剧情无感，附加丧失积极性，主创认为我风格不合适，把我驱逐出项目了。</p>
+<p>■调查原因与结果分析：<br>
+①概念构思和剧本产出不统一。团队一共有五个人担任剧本撰写，大家分工写，而且加入的时长都不一样，知道的信息都不相同。导致沟通出问题，输出剧本的时候出现前后剧情不连贯，两次集体开会也没有能够定下固定方向的叙事框架，这故事完全想象不出来有发生的可能性，我非常无感，而且非常丧失积极性。<br>
+②我反馈不及时，缺少跨部门沟通，主美和程序员因为工作量原因，不愿意做很多细节的spire动画和游戏机制，但是负责初稿的主创并没有把这个信息同步给我，导致我写的东西用不上，要我删除重写。这一点我认为我和这位小哥我们都有问题，内部沟通渠道不通畅，让我感觉自己像他们的免费外包，工作起来有些垂头丧气，下次再遇到这类问题，应该语气友好的主动沟通，多听听他们在聊什么，多收集清楚情报。<br>
+③时间管理失败。团队大部分人的游戏专业的留学生，时区都不一样，每次开会都很早或者很晚，有时候要晚上九点半开会开到凌晨一点多，但是开会很少得到达成共识。一般这种会如果得不出结论，我就不会客气下去了，直接一个小时时间到宣布停止了，太浪费时间了。<br>
+④主创团队自己对角色和世界观有想法，但是这个想法没有清楚写下来给叙事策划，虽然画大饼说叙事策划可以开心地写，但实际上他们是接受不了的。<br>
+⑤项目时间紧张，大家压力都很大，没有一个明朗的方向和前景，不过项目制作人身上有很多我值得学习的优点，比如说巧舌如簧，无脑夸人的技能，还有花钱很大度，很舍得把钱投入在刀刃上面，不会想着白嫖别人，感觉是个蛮有道德感的妹纸，就是感觉她缺少主见，只是主美和老师的传话筒，所以说话有时候会态度前后不一致。</p>
+<p>■自我分析：<br>
+1.我丧失积极性，写出来的故事更像是应付一下的作业，而且他们不喜欢我关于粤语恶搞的段子，这可能跟国内宣传风气有关，不怪他们，我也写不太出来像毒液那样的美式喜剧，我觉得比港式喜剧还要low好多啊，写这种喜剧等于是要恶心我了..<br>
+2.我不太习惯跟00后对话，我试着平等对话，但他们就莫名把我当作老师对待..<br>
+3.不够有耐心，太想要大跨步前进了。<br>
+4.往好的方向想，至少他们也愿意听我的劝，喜欢我关于磷虾的点子，愿意给游戏加入筛子功能和打架的戏份，感谢相遇，感恩短暂的合作，感谢他们出现在我生命里，丰富了我的人生。</p>
+<h2 id="第四次gamejam分析2022121-2024">■第四次GameJam分析：（2022.12.1-2024）</h2>
+<p>游戏文档：<br>
+游戏本质是一个潜行闯关游戏行走模拟器，带玩家游览魏晋，去他们没去过的朝代，看现代<br>
+人看不到的风景，让玩家发现惯性思考下无法发现的事情。鱼跃代表的是在一个不停有意外<br>
+的世界里，即使很难受，仍然选择保持积极心态活下去的现代人。<br>
+我在游戏里引入了一个 COC 跑团桌游里面“末日支配者”(Great Old Ones)的概念，并试图<br>
+进一步具体化它的形象，它就是被过往历史中的王侯将相们通过简单叠加制定创造出来的<br>
+Old Rules。<br>
+原先的社会规则都是年纪大的王侯将相们制定的，符合他们自己的时代需求，但对刚出生没<br>
+多久的年轻人们来说，却很难适应这样的社会规则。随着时间演进，年纪大的人都老死了，<br>
+但 Old Rules 依旧无声无息地存在着，即使它明明令社会里面的大多数人都很难受。<br>
+本游戏的设计灵感来自于去年疫情期间的个人思考，那时我突发急性肠胃炎，到了医院却只<br>
+能呆在发热诊室，从上午等候到下午三点才能离开，因为我的核酸检验报告一直没出来。这<br>
+发生的一切让我觉得医院失去了它原本的功能，而疫情这三年，也让我觉得社会失去了很多<br>
+它本来应该有的功能。于是我开始思考驱动社会失去本来功能背后的力量究竟是什么？是谁<br>
+犯了错吗？有人需要对此负责吗？还是说大家都没错，但悲剧就是不断在发生？我思考的结<br>
+论是，我认为驱动悲剧重演的背后力量就是 Old Rules 的存在。<br>
+设计这款游戏的目标是让玩家能够察觉到自己的社会里存在一些不合理的规则，比如奴隶制<br>
+度、盲目崇拜权威制、皇帝无罪制…同时我认为我们不必只是单纯痛苦地清醒着，而是要寻<br>
+找一种弗洛姆所说的“积极自由”的路，自发地生活，比如遇到问题解决问题，把让年轻人<br>
+们很难适应的社会规则，更改成我们都能适应的社会规则。<br>
+这种办法就是妄想力。使用卷轴的魔力施法，寻找智慧，拯救自我。</p>
+<p>机制一：藏经阁偷卷轴<br>
+藏经阁里到处都是官府镇压起义收集的战场百姓书信遗书或者招安各家各派收集起来的宗<br>
+师绝学。玩家可以收集卷轴发动技能。<br>
+但要保持警惕。玩家鱼跃将在黑暗的藏经阁里潜行，他一开始只依靠 SAN 值点燃自己身上的<br>
+灯芯草，照亮四周的几个方格，藏经阁里有看守经书的幽灵扫地僧和末日支配者。玩家只要<br>
+被他们抓到，就 GAMEOVER。而且你不能在藏经阁逗留太久，藏经阁里的低语迟早让你发疯。</p>
+<p>【开发进度条————&gt;】</p>
+<p>2022.11 参与彭必涛的游戏项目，开始零零碎碎写了一些魏晋竹林七贤相关的故事，由于游戏制作人决定砍需求，游戏项目不再需要游戏文案，故中断结尾，结束合作。<br>
+2023.01 参与叙事策划Workshop，idea诞生，这次是以小人物的视角构思，完善了带有冲突对立色彩的复仇武侠世界观。就是上面（2022.12.17-2023.03）写的那个👆<br>
+2023.03 完成Inky的demo，并且拉来一名天使投资人。<br>
+2023.06 完成inky引擎做的第二版demo，剧情到达主角与竹林七贤的相遇。<br>
+2023.09. 完成迭代到第四版的多结局的inky剧本大纲，剧情又臭又长，试玩者认为不好玩，决定大砍需求。<br>
+2023.10 为了做好游戏学Haxe语言！———OpenFL/Lime/LDSK/flixel....<br>
+2024.01.30 完成第三版的游戏文档，拉入一名程序员当战友，就是上面这位天使投资人👆<br>
+2023.02.01 开始游戏玩法相关的编程工作，为了做好游戏学C#语言！<br>
+2023.08.01 完成主角的sprite；敲定敌人的sprite和animations；<br>
+2023.09.01 构建游戏的对话框架和可持续输入方案</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🦖旧文存档| 分镜日日好]]></title>
+        <id>https://bacusio.github.io/post/jiu-wen-cun-dang-or-fen-jing-ri-ri-hao/</id>
+        <link href="https://bacusio.github.io/post/jiu-wen-cun-dang-or-fen-jing-ri-ri-hao/">
+        </link>
+        <updated>2021-09-05T20:48:51.000Z</updated>
+        <content type="html"><![CDATA[<p><code>#有的没的碎碎念 最近交友app新认识到一位画分镜头的CG艺术家，聊着聊着想起了以前写的一些分镜剧本习作，因为被强迫症老板批得一无是处，所以没有很重视留下来，基本离职时给丢进回收站了，只有零零碎碎的片段被我存在某个我都遗忘掉的云盘里面，估计时拷资料的时候鼠标顺手连带上传进去了。 我都要临近30了，才悟到自己的作品才是最重要的，根本不应该浪费太多时间跟别人争论对还是错，对面那个人搞不好是丁蟹呢？!自己的作品才是最重要的！！花在作品上的时间都不是浪费，是痛并快乐着的享受，是人生旅程里，对抗未知恐惧的能量棒~~**（向上翻白眼自我催眠ing）**~~</code></p>
+<h2 id="故事二十结尾未完待续"><strong>故事二十：结尾未完待续</strong></h2>
+<p>下班了。我走过你上班的那栋建筑，没有看见你的身影。我深呼吸一口气，妄图在空气中寻获你的味道，可是天下雨了。</p>
+<p>你说，等你从广州回来，一起打游戏。</p>
+<p>我说，好呀好呀，我想打游戏。我看你的时间。</p>
+<p>你在看我，我在看你，你在看我，我在看你，你在看我。</p>
+<p>回家之后，我打开你的即刻页面，一直看一直看，我想了解你的爱好，我想把你轻轻捧在手掌上，我想见面，我想听见你的声音。</p>
+<p>每周约定好打游戏的时间又到了，可你没有上线。抱着一丝丝不安，敲下了讯息给你，没有回。</p>
+<p>偷偷打开你的即刻，一个礼拜没有新的动态，两个礼拜没有新的动态，然后又有了新动态，可是你还没有回复我的讯息耶。</p>
+<p>由于这个故事过于支离破碎，以致于我无论如何用什么角度窥视都无法获知结尾是什么。</p>
+<p>不知道我们会在何时何地重逢呢？</p>
+<p>//作者Nepomucky：故事的灵感来自我一不小心把手机掉进池塘里的意外事件，虽然后来手机捞上来了，但我联想到失去手机后的我，很有可能会弄丢一些重要的网友、一段重要的关系，因为我们并没有别的联系方式，因为我们并不了解线下的彼此究竟是谁。</p>
+<p>这个故事是非虚构写作，我确实有一个失联的网友，我们见过几次面，知道彼此工作的地点，知道彼此的爱好，但了解的程度仅此而已。写这个故事，只是希望能把这段情绪好好存档放起来，所以扣掉了所有前因后果、环境、情节各种我觉得累赘的描写。</p>
+<h2 id="被金袋长老嫌臭的裹脚布警察局审讯剧本"><strong>被金袋长老嫌臭的裹脚布警察局审讯剧本</strong></h2>
+<p>旁白:外面的世界随着一声巨大的关门声，全部被阻挡在外。我是不是被拘起来了！？警官坐在桌子的另一端，他伸出手示意你坐在另一端，警惕的眼神彷佛容不下你做出任何额外附加动作。阿哈，你大概是被拘起来了吧，虽然你什么也没做？<br>
+旁白:你不知道自己的对手是什么，一切都是未知，它彷佛是看不见的敌人，嘲笑着你的渺小，你的无能为力，你的后知后觉。你什么也抵抗不了，也许你会被丢到监狱里，也许会被警方拷打逼供？你有想过要供出谁来吗？现在脑袋里浮现的名字是？或许这样能让你逃过一劫！<br>
+旁白:...等等！难道我是因为被谁供出来，才到了这个地方吗？究竟是哪一个我认识的人干的？存在之海如今只剩了一片白，天旋地转的白，淹没了一切的白。<br>
+旁白:...或许这只是你自己神经紧张罢了，如果什么都不记得，如果什么都没做，那也就没有监禁的理由了不是吗？<br>
+旁白:眼前的对手掀开了他的帷幕，张口抛出了第一个问题。<br>
+年轻警员:“你知道小响尾蛇比大响尾蛇更危险吗？？”<br>
++	……啊？-&gt;YOUNGPOLICE001<br>
+=<mark>YOUNGPOLICE001</mark>=<br>
+年轻警员:“响尾蛇如果受到惊吓，它会直立起来，张开嘴巴，把尖牙向前转，并从尖牙顶端喷出毒液。而年轻响尾蛇容易受惊，而且还没学会控制该分泌多少毒液，一不小心就会下狠手，对吧？&quot;-&gt;ROUND2<br>
+=<mark>ROUND2</mark>=<br>
++	我没有犯罪。-&gt;YOUNGPOLICE006<br>
++	响尾蛇可能也没得选。-&gt;YOUNGPOLICE007<br>
++	我不知道。-&gt;YOUNGPOLICE006<br>
++   蛇这样做是本能反应，可不是犯罪。-&gt;YOUNGPOLICE009<br>
+=<mark>YOUNGPOLICE006</mark>=<br>
+旁白:<em1>年轻警员看了看身旁的仪器，像是在确认些什么，仪器显示一切正常。<em1>-&gt;ROUND3<br>
+=<mark>YOUNGPOLICE007</mark>=<br>
+旁白:警官沉默了片刻，然后无言地看了看手上的资料。-&gt;ROUND3</p>
+<p>=<mark>YOUNGPOLICE009</mark>=<br>
+旁白:年轻警员沉默了片刻，然后无助地看了看身旁的仪器，像是在确认些什么，仪器显示一切正常。<br>
+-&gt;ROUND3<br>
+=<mark>ROUND3</mark>=<br>
+旁白:对手抛出了第二个问题。<br>
+年轻警员:&quot;请你诚实，客观回答所有问题，你的一切言论都会被记录在案，如有不诚实作答只会让你陷入被动的境地，因此请你诚实回答所有问题。清楚明白？&quot;<br>
++	明白了。-&gt;POLICENOD<br>
++	我不明白，我没犯罪！！-&gt;POLICEMAD<br>
+=<mark>POLICENOD</mark>=<br>
+旁白:警官点了点头，然后双手交叉放在桌上，盯着你的眼睛。-&gt;ROUND4<br>
+=<mark>POLICEMAD</mark>=<br>
+年轻警员:&quot;无意义的回答只会让自己陷入被动局面，先生。&quot;他轻轻摇了摇头。-&gt;ROUND4<br>
+=<mark>ROUND4</mark>=<br>
+年轻警员:请问你的名字是？&quot;<br>
++	警官你叫什么？一个月能赚多少？-&gt;POLICEASK<br>
++	我失忆了！-&gt;POLICENOD2<br>
++	叫我Ishmael（Call me Ishmael）。-&gt;POLICEMAD3<br>
+=<mark>POLICEASK</mark>=<br>
+年轻警员:&quot;我叫Kyle。请你不要转移话题。&quot;警官盯着你的眼睛，彷佛整个审讯室也同时都在凝视你。-&gt;ROUND5<br>
+=<mark>POLICENOD2</mark>=<br>
+旁白:警官沉默了片刻，低头看了看四方的物体，然后点了点头。-&gt;ROUND5<br>
+=<mark>POLICEMAD3</mark>=<br>
+旁白:警官身旁的四方物体发出了淡淡的红色光芒，警官皱了皱眉，似乎很不满意你的回答。&quot;这位先生，你说慌！请你讲真话。&quot;-&gt;ROUND5<br>
+=<mark>ROUND5</mark>=<br>
++	这是个测谎仪？-&gt;ROUND6<br>
++	所以这个东西是做什么用的？-&gt;ROUND6<br>
++   这是个测试，我测试下它准不准嘛，Relax~！-&gt;ROUND6<br>
+=<mark>ROUND6</mark>=<br>
+年轻警员:&quot;这个礼拜刚买的小型便携式执法仪器，平时是记录中端，审讯时是测谎仪，准得不得了！&quot;警察又继续抛出更多未知的问题，你多大了？<br>
++   可能十八岁？-&gt;ROUND7<br>
++   我刚刚来到这个世界呢！-&gt;ROUND7<br>
++   我不知道-&gt;ROUND7</p>
+<p>=<mark>ROUND7</mark>=<br>
+旁白:警官沉默了片刻，低头看了看四方的物体，然后点了点头。<br>
+年轻警员:&quot;你和多元枢纽的企业黑铁重工是什么关系？&quot;<br>
++	什么？-&gt;ROUND8<br>
++	我才刚认识这个词。-&gt;ROUND8<br>
++	我失忆了，我不知道。-&gt;ROUND8<br>
+=<mark>ROUND8</mark>=<br>
+年轻警员:&quot;74地球时之前，你在港口附近被人发现，还受了重伤，记不记得这件事？&quot;他甚至没有停下确认你的回答是否在说谎。<br>
++	&quot;大概……？ &quot;-&gt;ROUND9<br>
++	这我还是第一次听说，我的记忆可能只剩7秒了..呜呜呜-&gt;ROUND9<br>
++	至少我受伤是真的。-&gt;ROUND9<br>
++	我不知道，真的。-&gt;ROUND9<br>
++	警官请你相信我，我什么都不知道啊！-&gt;ROUND9<br>
+=<mark>ROUND9</mark>=<br>
+年轻警员:&quot;你和多元枢纽的企业伯利恒是什么关系？&quot;<br>
++	伯什么？-&gt;ROUND10<br>
++	我不知道，警官。-&gt;ROUND10<br>
++	我刚认识的，你也在场，就在这个审讯室里认识的。-&gt;ROUND10<br>
++	我真的什么都不记得了。-&gt;ROUND10<br>
++	没有任何关系。-&gt;ROUND10<br>
+=<mark>ROUND10</mark>=<br>
+年轻警员:&quot;你和多元枢纽的企业卯星是什么关系？&quot;<br>
++	这又是什么？-&gt;ROUND11<br>
++	我真的不知道。-&gt;ROUND11<br>
++	警官，我真的失忆了，你这样问没有用。-&gt;ROUND11<br>
++	我想没有任何关系（I think there is no any relationship）。-&gt;ROUND11<br>
+=<mark>ROUND11</mark>=<br>
+年轻警员:&quot;你信仰能动教吗？&quot;<br>
++	什么教？-&gt;ROUND12<br>
++	我不信教。-&gt;ROUND12<br>
++	这又是什么？-&gt;ROUND12<br>
+=<mark>ROUND12</mark>=<br>
+年轻警员:&quot;那你反对能动教吗？&quot;<br>
++	呃，也说不上反对-&gt;ROUND13<br>
++	睡觉是一个很宽容的教，包容万物，所以我不反对任何教。-&gt;ROUND13<br>
++	我不知道，我真的不知道。-&gt;ROUND13<br>
++	。-&gt;ROUND13</p>
+<p>=<mark>ROUND13</mark>=<br>
+旁白:在一连串询问过后，警察略微低头确认了一下记录中端。刚刚的连环审问期间似乎并没有出现红色的闪光。<br>
+年轻警员:&quot;测谎仪没有显示你在说谎，看来，你确实，什么都不记得了。或者你使了一些手段，骗过了机器，但，你骗不过我。&quot;警察重新盯着你的眼睛。<br>
++	我一直都在说真话。-&gt;ROUND14<br>
++	我是个诚实守信的小市民。-&gt;ROUND14<br>
++	。-&gt;ROUND14</p>
+<p>=<mark>ROUND14</mark>=<br>
+年轻警员:&quot;好吧。&quot;警官把自己的身体靠在椅背上，姿态稍显放松。&quot;有件问题我特别在意，希望你如实回答。&quot;<br>
+年轻警员:&quot;你接受第五医院的手术之后，院长要求你留在医院，等候警察带你来到The Tracer，这是否属实？&quot;<br>
++	我不知道这回事耶。-&gt;policeask2<br>
++	我能出院了，我就不占用医疗资源了嘛~-&gt;policeask3<br>
++	也许院长只是跟我开了个玩笑？。-&gt;policeask4<br>
+=<mark>policeask2</mark>=<br>
+年轻警员:“你看到啦，测谎仪BiuBiuBiu亮了起来。请你讲真话，不要浪费警察的时间。&quot;警察皱了皱眉。-&gt;round15<br>
+=<mark>policeask3</mark>=<br>
+年轻警员:“回答问题。”警察盯着你的眼睛。-&gt;round15</p>
+<p>=<mark>policeask4</mark>=<br>
+旁白：你继续说着一些云里雾里的话语，可就是这些没有实际意义的语句使得对面那个男人一直气得颤抖。-&gt;ROUND16</p>
+<p>=<mark>round15</mark>=<br>
+年轻警员:“你没听院长的命令，没等副局长过来，便私自离开医院了，这是否属实？”警员打断了你气若悬河的长篇废话。<br>
++	……-&gt;ROUND16<br>
++	是的。-&gt;ROUND16<br>
++	我不想一醒来就关起来。-&gt;ROUND16<br>
+=<mark>ROUND16</mark>=<br>
+年轻警员:“为什么？你在害怕什么？”警察坐直了身体，然后逐渐睁大了双眼凝视着你，“杀害黑铁重工的西蒙和埃迪的人，就是你吗？”<br>
++	我不知道，为什么你们要找我？-&gt;ROUND17<br>
++	我不认识他们，你们又为什么要找我？-&gt;POLICENOD4<br>
++	我这辈子最恨警察了，臭警察！死警察！！-&gt;POLICEFBI<br>
++   是我干的！我用绷带勒死的。-&gt;POLICEFBI<br>
+=<mark>POLICEFBI</mark>=<br>
+年轻警员:&quot;我想，这已经不算是一个答案。&quot;警察皱紧眉头，紧盯着你的眼睛，像是要把你驱逐出他神圣的殿堂—虽然他很年轻，但是他的眼神倒是已经很像一位老练的警察了。-&gt;dead001<br>
+=<mark>POLICENOD4</mark>=<br>
+年轻警员:&quot;因为你在我们这里是查无此人，这很可疑!...另外也需要你协助调查。&quot;警察用手指在记录中端上划了几下，然后将中端轻轻推向你。<br>
+旁白:你低头看向机器，上面是两个人中毒被送进医院的新闻报道。<br>
+-&gt;ROUND17<br>
+年轻警员：藏在盔甲后面的眼睛，彷佛看到了一只猎物，眯成了一条缝。-&gt;dead001<br>
+=<mark>dead001</mark>=<br>
+【入狱BAD END】不作死就不会死，游戏结束。-&gt;END<br>
+=<mark>ROUND17</mark>=<br>
+年轻警员:&quot;我们在码头附近发现了两位疑似被逆教徒毒害的黑铁重工员工，他们跟你一样深受重伤。相同地点，相似的时间，相同的伤口，真相只有一个！你们三，有关系！<br>
++	（如果在医院二层和医生对话过）可是他们都死了，我还活着。-&gt;ROUND1701<br>
++	（如果调查过二层医院档案室）他们都是黑铁重工的人。-&gt;ROUND1701<br>
++	（如果在二层未调查过对应档案）我不记得了。-&gt;ROUND1701<br>
++	你认为我也是他们的目标？（继续剧情）-&gt;ROUND1701<br>
+=<mark>ROUND1701</mark>=<br>
+年轻警员:&quot;唉，可惜伤势太严重，而且黑铁重工不愿意出钱治疗他们，所以入院后就停止治疗了。&quot;他说这句话的时候很平静。<br>
++   黑铁重工做得对吗？-&gt;ROUND1702<br>
++	黑铁重工不理会自己员工死活的吗？-&gt;ROUND1702<br>
++	这公司真他娘的不是个东西啊！-&gt;ROUND1702</p>
+<pre><code>===ROUND1702===
+</code></pre>
+<p>年轻警员:&quot;不在其位不谋其职，很多事情无法用简单的对错来判断。&quot;他眼神稍微偏移开来，&quot;这是他们一贯的做法。&quot;-&gt;ROUND1703<br>
+年轻警员:&quot;大数据智能分析认为西蒙和埃迪的致残率很高，无法伤愈复出，长期下去会拖累企业，影响企业的利润率，因此没有必要支付手术费用，就是这样。&quot;警察语气很平淡，和刚才没有两样。-&gt;-&gt;ROUND1703<br>
+旁白:	但是他的眼神有一瞬没有聚焦在你的双眼，而是逃跑般地飘向了身后。-&gt;-&gt;ROUND1703<br>
+旁白:	他没有回答你，但是他的眼神有一瞬没有聚焦在你的双眼，而是飘向了你身后。<br>
+旁白:	他在思考一些别的东西，一些息息相关的相似命运与最终的大结局。-&gt;-&gt;ROUND1703<br>
+=<mark>ROUND1703</mark>=<br>
++	警官，你怎么看？-&gt;ROUND1704<br>
++	你也觉得不爽，对吧？-&gt;ROUND1705<br>
++	哈，你也觉得他们不是东西。-&gt;ROUND1705<br>
+=<mark>ROUND1704</mark>=<br>
+年轻警员:&quot;现在是我在问你问题。&quot;他虽然什么也没说，但微弱的语气彷佛还是告诉你了：两条人命不该终止在此。-&gt;ROUND18<br>
+=<mark>ROUND1705</mark>=<br>
+年轻警员:&quot;是的。他们最近刚刚升职加薪，而且都有家庭小孩了。&quot;警察回答道。<br>
+年轻警员:&quot;他们是在你之后出事的。你被袭击后，紧接着两人就中毒了。黑铁重工甚至没有派人看过他们。-&gt;ROUND18<br>
+=<mark>ROUND18</mark>=<br>
+年轻警员:&quot;两起案件发生的时间相近，因此有可能具有一定关联性。&quot;警察把信息中端拿了回去，&quot;而且你是无名氏，这一点需要被特别调查。&quot;<br>
++	我没有身份证吗？-&gt;ROUND1801<br>
++	因为我说我失忆了吗？-&gt;ROUND1802<br>
++   难道我长得像坏人嘛？-&gt;ROUND1801<br>
++	难道我长得好欺负？-&gt;ROUND1801<br>
+=<mark>ROUND1801</mark>=<br>
+年轻警员:&quot;这倒无法直接辨别出来，毕竟你的脸，已经被毁掉了。&quot;警察清了清嗓子，&quot;我们将你的所有身份数据进行比对，但是没有任何有关你的信息识别。因此你需要被进一步观察和询问，以确定你的身份。&quot;-&gt;ROUND19<br>
+=<mark>ROUND1802</mark>=<br>
+年轻警员:&quot;我们不知道，你是怎么来到这里的，数据库也没有你的身份信息。因此需要进一步观察你，以确认你的身份。&quot;警察如此回答。-&gt;ROUND19<br>
+=<mark>ROUND19</mark>=<br>
++	所以接下来要把我关起来吗？-&gt;ROUND20<br>
++	所以，你是要监视我？？-&gt;ROUND20<br>
++	那……接下来呢？-&gt;ROUND20<br>
+=<mark>ROUND20</mark>=<br>
+年轻警员:&quot;哈哈哈，没有啦~我们只是想确认你的基本信息，已经完成了，你现在勉强算是个有身份的人了。&quot;警察又将自己靠在椅背上。<br>
++	那我私自离开医院的事呢？-&gt;ROUND2001<br>
++	如果我之后想找Tracer， 该如何联系你？-&gt;ROUND2002<br>
++	真的没有监视观察之类的？我自由了？-&gt;ROUND2003<br>
++	你们有查到任何关于我身份的线索吗？（继续剧情）-&gt;ROUND2004<br>
+=<mark>ROUND2001</mark>=<br>
+年轻警员:&quot;副局长不打算追究，所以，你是自由的，至少目前为止。&quot; 警察把信息中端放回桌肚。-&gt;ROUND21<br>
+=<mark>ROUND2002</mark>=<br>
+年轻警员:&quot;走进来就行，打电话联系我也行。-&gt;ROUND21<br>
+=<mark>ROUND2003</mark>=<br>
+年轻警员:&quot;街上有监控设备的，所以你不要想着做违法的事情哦，无名之人。&quot;警察没有很认真地看着你的眼睛。他也许已经想下班去哪快活了。-&gt;ROUND21<br>
+=<mark>ROUND2004</mark>=<br>
+年轻警员:“没有。我们只是把这次事件记录在案，稍后归档处理，暂时就是这样。”他站了起来，转了转脖子。-&gt;ROUND21<br>
+=<mark>ROUND21</mark>=<br>
++	如果可以的话，我想看看那些信息。-&gt;ROUND22<br>
++	可我需要知道我是谁。-&gt;ROUND22<br>
++	那你把档案取出来让我看看可好？-&gt;ROUND22<br>
+=<mark>ROUND22</mark>=<br>
+年轻警员:“没门。档案是不会随意调取出来给外人看的。”他说完，走到门前打开了门，世界彷佛又回到了你身旁。“如果你想起什么相关的线索，欢迎联系我们。&quot;说完他就急匆匆地走了。<br>
+-&gt;C_Mid_Tra_1</p>
+<p>【玩家走到测谎仪前】-&gt;C_Mid_Tra_44<br>
+=<mark>C_Mid_Tra_44</mark>=</p>
+<pre><code> +   查看目前案件记录-&gt;policeBase001
+ +   读取更多信息-&gt;policeBase002
+ +  【破解】破译测谎仪-&gt;policeBase003
+ +  【机械专精】拆除测谎仪-&gt;getliecheck
+ +   离开-&gt;C_Mid_Tra_1
+</code></pre>
+<p>=<mark>policeBase001</mark>=<br>
+信息中端:“记录完成，信息同步完毕”-&gt;C_Mid_Tra_44<br>
+=<mark>policeBase002</mark>=<br>
+信息中端:操作失败。-&gt;C_Mid_Tra_44<br>
+=<mark>policeBase003</mark>=<br>
+旁白:……%￥R（……&amp;*【内网权限】登录成功，今日本地暂无新增信息，查看历史信息请移步档案室的中央处理台。-&gt;C_Mid_Tra_44<br>
+=<mark>getliecheck</mark>=<br>
+旁白:最新款的小型便携式执法仪器，现在看来是你的了。(现在你可以使用测谎仪与他人对话)<br>
+-&gt;C_Mid_Tra_1</p>
+<p>=<mark>C_Mid_Tra_1</mark>=<br>
+（场景切换为大厅）<br>
+//C_Mid_Tra_1<br>
+前台接待员:&quot;The Tracer中层分局，请问有什么事？”接待员的声音听起来有些距离感。也许在警察局工作的人都需要有这样的距离感来树立自己的权威形象。<br>
++	Tracer是做什么的？ -&gt;TRA101<br>
++	介绍一下Tracer中层分局-&gt;TRA102<br>
++	我要报案，该怎么做？-&gt;TRA103<br>
++	没事了，谢谢。（离开）-&gt;C_Mid_Tra_1</p>
+<p>=<mark>TRA101</mark>=<br>
+前台接待员:“我们保障多元枢纽各位星际公民生命安全和财产安全，打击各类违法犯罪行为以及极速逮捕犯罪者，就是这样。”-&gt;C_Mid_Tra_1<br>
+=<mark>TRA102</mark>=<br>
+前台接待员:&quot;“The Tracer是多元枢纽的警务防卫机构，接受多元枢纽管理组织与三大公司共同监督。Tracer在中层和上层建有各个分局，总局位于上层。 ”-&gt;C_Mid_Tra_1<br>
+=<mark>TRA103</mark>=<br>
+前台接待员:“如果遇到紧急情况，你可以直接使用就近的通讯设备呼叫我们。如果你来到局内想报案，可以在预约机取票后，寻找对应柜台的工作人员。 ”-&gt;C_Mid_Tra_1</p>
+<p>=<mark>C_Mid_Tra_2</mark><br>
+//C_Mid_Tra_2<br>
+年轻警员:你找我还有什么事吗？<br>
++	我还不知道你的名字呢-&gt;askpolice001<br>
++	你在Tracer的工作是什么？-&gt;askpolice002<br>
++	你喜欢这里的工作吗？-&gt;askpolice003<br>
++	副局长是怎样的人？-&gt;askpolice004<br>
++	局长在哪工作呢？-&gt;askpolice005<br>
++	嘿，谢谢你的面包~-&gt;askpolice006<br>
++	没事了，只是说声再见。（离开）-&gt;C_Mid_Tra_1<br>
+=<mark>askpolice001</mark>=<br>
+年轻警员:“叫我Kyle就好，无名的人（The man who have no his name yet）。”-&gt;C_Mid_Tra_2<br>
+=<mark>askpolice002</mark>=<br>
+年轻警员:“我就是警务实习生，什么都干。平常负责审问犯人，记录案件，出现棘手的案子，就和同事一起出勤。”-&gt;C_Mid_Tra_2<br>
+=<mark>askpolice003</mark>=<br>
+年轻警员:“中层其实待遇还行，都是些逮捕诈骗犯啊商业间谍啊的金融犯罪，没出过什么恶性事件。”<br>
+年轻警员:“有一两次我去下层协助办案，老兄，真的是个车祸现场，我很佩服我下层的同事，屎崩于面前都面不改色！”-&gt;C_Mid_Tra_2<br>
+=<mark>askpolice004</mark>=<br>
+年轻警员:“副局长是我们这儿的栋梁之才，就像英雄一样闪闪发光，他光站着，就能让我们有信心办好所有案件，没了他，我真不知道怎么办了。”-&gt;C_Mid_Tra_2<br>
+=<mark>askpolice005</mark>=<br>
+年轻警员:“局长呢是我们这的灵魂人物，不过他不在这一层，话说我还没见过他老人家呢……”-&gt;C_Mid_Tra_2<br>
+=<mark>askpolice006</mark>=<br>
+年轻警员:“不客气，只是例行公事。目前看来，你不是个坏人，继续保持哟。”-&gt;C_Mid_Tra_2</p>
+<p>=<mark>askpoliceagain</mark>=<br>
+//C_Mid_Tra_3<br>
+警员Kyle:“怎么了，还有什么事吗？”<br>
++	嘿Kyle，下班后一起去吃饭好吗？-&gt;askpolice200<br>
++	你喜欢这份工作吗？-&gt;askpolice204<br>
++	你们不会把我送回医院吧？-&gt;askpolice202<br>
++	没事了，再见，警员先生。（离开）-&gt;C_Mid_Tra_1<br>
+=<mark>askpolice200</mark>=<br>
+警员Kyle:“emm..可是我们不熟耶，所以，还是不要了。”-&gt;askpoliceagain<br>
+=<mark>askpolice201</mark>=<br>
+警员Kyle:“我当然喜欢这份工作啦。我的家乡有非常多坏人，我从小就想要赶走家乡的所有坏人，我想要让整个宇宙更加和平。”-&gt;askpoliceagain<br>
+=<mark>askpolice204</mark>=<br>
+警员Kyle:“能够帮助到更多人，让这里变得更安全，这就是Tracer，这就是我。”-&gt;askpoliceagain<br>
+====<mark>askpolice202</mark>=<br>
+警员Kyle:“听院长说，你还欠他们医疗费，如果不想被抓起来，记得付清账单。”-&gt;askpoliceagain</p>
+<p>=<mark>C_Mid_Tra_4</mark>=<br>
+//C_Mid_Tra_4<br>
+等待的人:“什么事？”<br>
++	你为什么在这里？-&gt;chathalfman001<br>
++	你在这的工作是什么？-&gt;chathalfman002<br>
++	你认识这的副局长吗？-&gt;chathalfman003<br>
++   [使用测谎仪]你认识那些黑铁重工的人吗？-&gt;chathalfman0022<br>
++	没什么。（离开）-&gt;C_Mid_Tra_4<br>
+=<mark>chathalfman001</mark>=<br>
+等待的人:“本来今天好好的，下班回家路上，突然被小混混拿着刀打劫！他还说要我帮帮他，他要去做一件最新潮，最现代，最富有激情的事情。”我看他就是拿着我的钱去打电动了！”-&gt;C_Mid_Tra_4</p>
+<p>等待的人:“结果来这报案排队排了两个小时。明天我还要上班！今天真的倒霉死了！”-&gt;C_Mid_Tra_4<br>
+=<mark>chathalfman002</mark>=<br>
+等待的人:“我就是黑铁重工的职员，唉又累又没福利。”-&gt;C_Mid_Tra_4</p>
+<p>=<mark>chathalfman0022</mark>=<br>
+等待的人:“我就是黑铁重工的人，天天都要给黑心老板擦屁股，我真是受够了，我跟你说，我们老板可是万恶之源，你看新闻了吧，又死了两个炮灰，他们俩在公司讨好老板时，肯定没想到自己是这个下场吧。”-&gt;C_Mid_Tra_4<br>
+=<mark>chathalfman003</mark>=<br>
+等待的人:“我只知道副局长是这里震场子的人，有了他，没人敢惹事。”-&gt;C_Mid_Tra_4</p>
+<p>=<mark>C_Mid_Tra_Doc_1</mark>=<br>
+旁白:你趁别人不注意，从门缝里钻了进去，再轻轻关上了门。所幸现在没有其他人在房间里。<br>
++	哇哦，我进来了。-&gt;chatalone001<br>
++	好刺激，我可能真的是什么特工或者侠盗。-&gt;chatalone002<br>
++	呃，现在出去是不是来不及了？-&gt;chatalone003<br>
++	警察局的安保不过如此~-&gt;chatalone004<br>
+=<mark>chatalone001</mark>=<br>
+【HP+20】旁白:&quot;事情的进展有些太快了，我是说，太顺利了，奇特的能力，让你的胆量变得有些膨胀，飙升的肾上腺素让你忘记了脸上的创口疼痛。&quot;-&gt;C_Mid_Tra_Doc_3<br>
+=<mark>chatalone002</mark>=<br>
+【胆量+1】旁白:你为你的成功潜入感到高兴。奇特的能力让你拥有了莫名的胆量去做这些事情，目前的进展又像是顺水推舟般顺利，这让你放松了一些警惕。<br>
+旁白:你有一些害怕，又有一些怀疑接下来还会不会如此顺利。-&gt;C_Mid_Tra_Doc_3<br>
+=<mark>chatalone003</mark>=<br>
+【胆量+1】旁白:但，木已成舟，你只能先在这里找到相关线索，再思考接下来该怎么做。-&gt;C_Mid_Tra_Doc_3<br>
+=<mark>chatalone004</mark><br>
+【鲸学+1】旁白:目前为止的安保装置都是验证每个人的身份芯片，而当你使用方块的能力就能伪装成他人，于是安保装置就会被你的伪装欺骗。<br>
+旁白:这个方块的能力就像是为了破解这个地方的安保装置而生的，太美妙了！<br>
+旁白:你不禁在想，如果所有的安保都是类似的原理呢？那不就可以去任何地方……这听起来有些危险，又有些刺激。<br>
+旁白:但，现在不能放松警惕。正所谓知己知彼，百战百胜，首先要在这寻找你自己身份。-&gt;C_Mid_Tra_Doc_3</p>
+<p>=<mark>C_Mid_Tra_Doc_3</mark>=<br>
++翻桌子-&gt;SearchTable002<br>
+=<mark>SearchTable002</mark><br>
+未命名笔记:“嘿！这动态密码太难记了，每隔一段时间就要更改，不觉得心累吗？”<br>
+未命名笔记:“哎呀密码就永远都是TRACER,然后我们按照不同的编码方式来改动吧。”<br>
+未命名笔记:“那这周就按照人类英文字母的序号，每个字母的序号取其个位数。”<br>
+-&gt;C_Mid_Tra_Doc_2</p>
+<p>=<mark>C_Mid_Tra_Doc_2</mark>=<br>
+信息中端:“The Tracer中层分局案情信息中端。请输入动态密码。”<br>
++	（看过未命名笔记后）081358-&gt;SearchCODE001<br>
++	123456-&gt;SearchCODE002<br>
++	111111-&gt;SearchCODE002<br>
++	888888-&gt;SearchCODE002<br>
++	（离开）-&gt;C_Mid_Tra_Doc_2<br>
+=<mark>SearchCODE001</mark>=<br>
+信息中端:“密码错误。”-&gt;C_Mid_Tra_Doc_2<br>
+=<mark>SearchCODE002</mark>=<br>
+信息中端:“欢迎，Tracer警员，请选择要查看的日期。请注意，7日以上的案件信息会自动加密，需要身份卡才能查看。部分信息需要更高权限。”-&gt;SearchTable004<br>
+=<mark>SearchTable004</mark>=<br>
++	&quot;今日 &quot;-&gt;TODAYPOLICE<br>
++	3日前-&gt;3DAYAGO<br>
++	5日前-&gt;5DAYAGO<br>
++	7日前-&gt;7DAYAGO<br>
++	（离开）-&gt;C_Mid_Tra_5<br>
+=<mark>TODAYPOLICE</mark>=<br>
+信息中端:“案件已归档，如需解锁，请使用身份卡进行查看。”-&gt;UPDATETODAY</p>
+<p>=<mark>3DAYAGO</mark>=<br>
+信息中端:“（更新）中层逆教徒案：两名受害者西蒙与埃迪已确认死亡。黑铁重工员工尸体目前位于中层第五医院，将在之后进行剖析净化处置。-&gt;UPDATETODAY03<br>
+=<mark>5DAYAGO</mark>=<br>
+信息中端:（更新）查无此人案件：码头未知男子现已痊愈出院，初审已完成，身份信息仍需再确认。-&gt;UPDATETODAY<br>
+=<mark>5DAYAG0</mark>=<br>
+信息中端:（更新）中层电玩厅损坏案：已被更换新的贪屎蛇机，犯罪嫌疑人特征为红橙色。（Krios备注：再让我看到有人穿着Tracer的衣服在那打电动，我就把你的手拧下来。）”-&gt;SearchTable004<br>
+=<mark>7DAYAGO</mark>=<br>
+信息中端:（新增）中层逆教徒案：黑铁重工的两位员工遭遇毒害，现在已送至第五医院救治。嫌疑人初步认定为一名正在逃逸的逆教徒，分局已发布通缉令。-&gt;UPDATETODAY03</p>
+<p>=<mark>UPDATETODAY</mark>=<br>
+信息中端:（新增）无名之人：一位受重伤的男性被他人发现在港口佩廓德附近，周围发现（需要权限）以及（需要权限），男性身份无法辨别，仅发现身上携带（需要权限），副局长Krio命令将其（需要权限）。相关信息根据副局长要求已经进行加密，需要更高权限才能阅览。<br>
++【内网权限】破译-&gt;UPDATETODAYNEWS02</p>
+<p>=<mark>UPDATETODAYNEWS02</mark>=<br>
+信息中端:（新增）无名之人：一位受重伤的男性被他人发现在港口佩廓德附近，周围探测到罕见的利维坦能源，情报显示数名的逆教徒与量子幽灵当日在此聚集。男性身份目前无法辨别，仅发现身上携带疑似鲸体聚合物方块，副局长Krio命令将其暗地里驱逐出中层。-&gt;SearchTable004</p>
+<p>=<mark>UPDATEGAME</mark>=<br>
+信息中端:（新增）屁屁电玩厅恶意破坏案：中层电玩厅贪屎蛇机器被人恶意破坏，破坏者已被逮捕并进行教育。-&gt;SearchTable004<br>
+=<mark>UPDATETODAY03</mark>=<br>
++【内网权限】破译-&gt;UPDATETODAYNEWS02<br>
+信息中端:（更新）中层逆教徒逃逸：黑铁重工两位员工现已死亡，案件升级为刑事罪，逆教徒现已被正式通缉，据可靠情报，犯人正在潜伏在中层。 出现在量子幽灵身份辨别为量子雇佣兵，暗杀目标不明。-&gt;C_Mid_Tra_5</p>
+<p>=<mark>C_Mid_Tra_5</mark>=<br>
+旁白:你听到外面好像有人在大声喧哗。保守起见，还是不要在这里久留。-&gt;OUT110ROOM<br>
+=<mark>OUT110ROOM</mark>=<br>
+旁白:你从档案室悄悄探出来，幸运的是，并没有人发现你，因为他们全部都凑在了大厅靠近门口的地方。-&gt;TRA110<br>
+=<mark>TRA110</mark>=<br>
+旁白:你走过去想知道发生什么事，但呼喊早一步传入你的耳朵：<br>
+旁白:“医院就在旁边，把他送过去！”<br>
+旁白:“不行！已经听不到心跳了！现在立马抢救！”<br>
+旁白:你又往前走，想要知道到底发生了什么。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🖥 许的数据库+为了做好游戏学游戏引擎]]></title>
+        <id>https://bacusio.github.io/post/xu-de-shu-ju-ku/</id>
+        <link href="https://bacusio.github.io/post/xu-de-shu-ju-ku/">
+        </link>
+        <updated>2021-08-21T13:53:17.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="游戏开发的工作流程haxe学习篇">🌱游戏开发的工作流程（Haxe学习篇）</h1>
+<hr>
+<p>①安装{Haxe|Haxe Flixel|lime|编辑器Visual Studio Code|OpenFL|heaps}<br>
+②&quot;Hello World&quot;，创建新文件<br>
+'flixel create'可以创建自带一些代码demo<br>
+'flixel tpl -n Hello World'可以创建自己的游戏项目《Hello World》<br>
+'dir'显示文件夹里的内容<br>
+'code .'在visual studio 里面显示内容<br>
+③理解内容<br>
+Main.hx是核心源代码。其他模块功能的代码都放在<Source>文件夹里<br>
+project.xml是一些依赖和安装库<br>
+bulid.xml是用来配置和指定路径<br>
+<assets>是用来放游戏资产<br>
+④尝试测试它，让它动起来<br>
+visual studio code 里面选run and debug<br>
+bulid.json是用来指导visual studio做测试的<br>
+或者选Command Palette然后输入'run build task'<br>
+或者在命令行输入'haxe run lime' 'lime test html5' 编译代码为h5</p>
+<p>#PART2.0</p>
+<p>①bulid.hxml具体功能是可以用来输出不同平台的代码包<br>
+[python bin/Main.py]-&gt;一键生成python代码包在bin文件夹里<br>
+[node bin/Main.js]-&gt;一键生成js代码包在bin文件夹里<br>
+②每个类（Class）的命名首字母都要大写，否则无法识别。<br>
+③代码的分段测试是通过在VC code 里面按Ctrl+Shrft+B来运行完成的，这个步骤用于跟踪单个模块的错误和异常行为，必须先测试单个模块，之后才进行集成测试，让不同模块正确交互，观察接口是否按预期工作，不要急着冲，会有BUG（怎么在CodeSpace里面调试程序还在研究）<br>
+④目前已知的Haxe Flixel的开源项目可以实现的功能有：1.存档；2方向键控制； 3.敌人auto巡路行为算法；4.烛光的明暗渲染效果；5交互对话系统；6藏经阁书籍显示内容；7.玩家动画sprite；<br>
+未找到的功能：1.随时间消耗SAN值的系统机制；2.合成道具系统机制；3.背包机制；4谜题推理系统；5使用PlayState回收使用资产避免摧毁物体造成内存消耗的具体实例；6Tilesheet和场景代码的关联和参考demo；7.场景边缘黑暗模糊的特效；8.技能发动系统机制及UI设计框架；<br>
+⑤<br>
+#Haxe代码格式开头是 import XXX<br>
+[import openfl.display.Sprite]-&gt;导入openfl文件夹里的display文件夹里的Sprite.hx代码；此步骤确保import包含所有导入代码<br>
+#接着我们就可以写相关的Sprite函数，命名各种类（Class）了</p>
+<p>Sprite是指角色所有动作的图，要PNG格式，最好是64乘64的像素，然后240p（4.5：1）的画面是最兼容各种尺寸的平台格式。可以用TexturePacker来分割处理每个动作的数据坐标，对应生成的json文件放在<data>文件夹里（目前没搞懂为什么有些Sprite图不是彩色的反而是灰阶的）<br>
+Class new （一个首字母大写的新名字）就是新增类；<br>
+Class override （Name）就是添加新功能；<br>
+Class super (Name) 就是可以积累使用的拓展覆盖功能；</p>
+<p>此步骤要验证所有函数和变量都正确声明和使用+审查逻辑+Debug跟踪程序的流程+使用不同输入和场景测试代码+检测语法和缺少的分号（；）<br>
+当在做游戏玩法开发的时候，主屏幕改成PlayState.hx，出错的话要分析错误信息，定位漏洞点，进行必要的修复和重复调试过程，不出错的话，不要再手贱修改无问题的代码了:(。全部无误就可以改回主屏幕MenuState.hx<br>
+⑥function init{} function regularUpdate(dt：float){}是用来更新函数<br>
+function init{} if （state.time==0）{} 是用来在游戏一开始就更新<br>
+这两个函数用来重复使用，定期更新游戏现状，查看游戏胜利条件是否达成<br>
+（没弄懂什么防止排队函数叠堆，要在循环中使用@sYnc 插队进行同步？）</p>
+<p>⑦ Var +（分大小写的名字）:{Int=0(整数)|Float=0（浮点小数点）|Bool（Yes or No）|String（文本字符串text）}（++是数字加一，==是检测两个值相同否，&lt;=是检测前值是否小于后值）<br>
+⑧访问权。super是自下而上拥有所有hx的通行权，可以向上拓展覆盖，但不是全部；private是只在当前.hx有访问权；public是可以访问任何实例位置；inline则是将变量或函数定义成固定值，死也不改了。
+<p>#Review<br>
+FlxEmitter和FlxParticle类用于粒子效果。<br>
+使用FlxSprite类来显示精灵。<br>
+FlxGroup类是我们扩展的类，用来当作回收站节省内存。（子弹）<br>
+TexturePackerData类将用于处理从Texture Packer精灵表加载的精灵。<br>
+FlxTween和FlxEase类将用于缓动。</p>
+<p>private var texturePackerData：<br>
+TexturePackerData；这个变量将存储用于从精灵表中获取精灵的数据：<br>
+private var explosionLine：FlxSprite；private var lineXOffset：Float =<br>
+0；private var lineYOffset：Float = 30；这些变量包含了爆炸线的精<br>
+灵，并且我们将使用x和y偏移量来定位消灭的敌人上方的线条。</p>
+<p>#Mechaniucs<br>
+使用haxe可创建一个openfl项目，下载必须的openfl库<br>
+创建角色和敌人的动画表sprite sheet，找资产-&gt;FlxSprite[[20240110023445]]<br>
+创建系统来在openfl加载管理这些资产<br>
+创建藏经阁关卡地图-&gt;Playstate [[20240110023727]]<br>
+为玩家和敌人和环境实现碰撞系统 -&gt;FlxGroup<br>
+玩家移动功能<br>
+玩家不同动作的动画<br>
+管理玩家的统治数据（san值/进度条/决心）<br>
+敌人的巡逻/追逐/攻击寻路行为算法，<br>
+编写玩家与敌人的交互机制，玩家的理智系统<br>
+游戏开始菜单，包括游戏统计数据和反馈系统<br>
+时时动态照明效果来营造气氛和可视范围<br>
+为拾取物品或遇到敌人添加视觉效果<br>
+音效和背景音乐，管理音频资产和播放</p>
+<p>玩家碰触书可以显示文字，增加理智<br>
+碰触无双纸条，解锁方向<br>
+使用着色器（GLSL）来创建黑色剪影效果，并为灯光投影创建混合模式。<br>
+检测玩家输入，激活技能，<br>
+将玩家的ui改变为书本内容状态<br>
+用着色器创建渲染轮廓效果<br>
+调整播放器周围的照明<br>
+游戏逻辑，当玩家在书本里，无法被鬼魂察觉<br>
+//<br>
+#Story<br>
+#objectives<br>
+#User Interface</p>
+<h2 id="coding-for-musicrich-vreeland">#Coding for Music（Rich Vreeland）</h2>
+<p>// For the purposes of these examples I'm using Flixel and AS3, because it's what I'm familiar with.</p>
+<p>/** The last note played, stored after each new note is played. */</p>
+<p>public static var lastNotePlayed: Class;</p>
+<p>/** Play a note! */</p>
+<p>public static function playNote():void</p>
+<p>{</p>
+<p>var noteToPlay: Class = getNote();</p>
+<p>// This is Flixel's function for playing sounds.</p>
+<p>FlxG.play(noteToPlay);</p>
+<p>lastNotePlayed = noteToPlay;</p>
+<p>}</p>
+<p>/** Get a new series of note choices, based on what the previous note was. */</p>
+<p>private static function getNote():Class</p>
+<p>{</p>
+<p>var noteChoices: Array = [];</p>
+<pre><code>if (lastNotePlayed == C3) noteChoices = [D3, E3, F3, G3, A3, B3, C4];
+</code></pre>
+<p>else if (lastNotePlayed == D3) noteChoices = [C3, E3, G3];</p>
+<p>else if (lastNotePlayed == E3) noteChoices = [F3, G3, C4];</p>
+<p>else if (lastNotePlayed == F3) noteChoices = [E3, G3];</p>
+<p>else if (lastNotePlayed == G3) noteChoices = [C3, D3, E3, F3, A3, B3, C4];</p>
+<p>else if (lastNotePlayed == A3) noteChoices = [G3, B3, C4];</p>
+<p>else if (lastNotePlayed == B3) noteChoices = [G3, A3, C4];</p>
+<p>else if (lastNotePlayed == C4) noteChoices = [C3, G3, B3];</p>
+<p>else    noteChoices = [C3, G3, C4];</p>
+<p>var choice: int = Math.round(Math.random() * (noteChoices.length - 1));</p>
+<p>var note: Class = noteChoices[choice];</p>
+<p>return note;</p>
+<p>}</p>
+<p>#继续加强版音阶狂魔code<br>
+public static const IONIAN: Object = { position: 1 };</p>
+<p>IONIAN.logic = [ /* 00 one  */ ['two', 'thr', 'for', 'fiv', 'six', 'sev', 'one'],</p>
+<p>/* 01 two  */ ['one', 'thr', 'fiv'],</p>
+<p>/* 02 thr  */ ['for', 'fiv', 'oct'],</p>
+<p>/* 03 for  */ ['thr', 'fiv'],</p>
+<p>/* 04 fiv  */ ['one', 'two', 'thr', 'for', 'six', 'sev', 'oct'],</p>
+<p>/* 05 six  */ ['fiv', 'sev', 'oct'],</p>
+<p>/* 06 sev  */ ['fiv', 'six', 'oct'],</p>
+<p>/* 07 oct  */ ['one', 'fiv', 'sev'],</p>
+<p>/* 08 else */ ['one', 'fiv', 'oct']</p>
+<p>];</p>
+<p>public static const DORIAN: Object = { position: 2 };</p>
+<p>DORIAN.logic = [ /* 00 one  */ ['thr', 'fiv', 'sev', 'oct'],</p>
+<p>/* 01 two  */ ['fiv', 'six', 'sev'],</p>
+<p>/* 02 thr  */ ['one', 'for', 'fiv', 'six', 'sev', 'oct'],</p>
+<p>/* 03 for  */ ['fiv', 'six', 'sev', 'oct'],</p>
+<p>/* 04 fiv  */ ['thr', 'six', 'sev', 'oct'],</p>
+<p>/* 05 six  */ ['one', 'for', 'fiv', 'sev', 'oct'],</p>
+<p>/* 06 sev  */ ['thr', 'fiv', 'six', 'oct'],</p>
+<p>/* 07 oct  */ ['one', 'thr', 'for', 'fiv', 'sev'],</p>
+<p>/* 08 else */ ['one', 'fiv', 'oct']</p>
+<p>];</p>
+<p>This is all fine and dandy, but these strings need to be hooked up to the sound assets in order to work. As a way of dealing with different modes, we can create a for loop that will fill a 'loadout' object with the proper notes, assigned to the proper scale degrees.</p>
+<p>/** An array of the scale degrees, used as a reference for populating the loadout object. */</p>
+<p>public static const DEGREES: Array = ['one', 'two', 'thr', 'for', 'fiv', 'six', 'sev', 'oct'];</p>
+<p>/** An array of all the notes needed to potentially form an eight note scale in any mode (Ionian is C3 - C4, Dorian is D3 - D4, Phrygian's E3 - E4, etc.) */</p>
+<p>public static const C_MAJOR: Array = [C3, D3, E3, F3, G3, A3, B3, C4, D4, E4, F4, G4, A4, B4];</p>
+<p>/** The loadout object, to be filled with the notes of the current mode/key. */</p>
+<p>public static var loadout: Object = {};</p>
+<p>/** The last note played, stored after each new note is played. */</p>
+<p>public static var lastNotePlayed: Class;</p>
+<p>// For the sake of the example, let's say the current key is F# Major.</p>
+<p>public static varcurrentMode: Object = DORIAN;</p>
+<p>/** Play a note! */</p>
+<p>public static function playNote():void</p>
+<p>{</p>
+<p>var noteToPlay: Class = getNote(currentMode); // Pass the current mode into getNote(), whatever mode you want it to be!</p>
+<p>FlxG.play(noteToPlay);</p>
+<p>lastNotePlayed = noteToPlay;</p>
+<p>}</p>
+<p>/** Get a new series of note choices, based on what the previous note was. */</p>
+<p>private static function getNote(modeToUse: Object):Class</p>
+<p>{</p>
+<p>/** Whether we've found the last note played in the current loadout. */</p>
+<p>var found: Boolean = false;</p>
+<p>/** The note choices that we'll use to decide the next note to get. */</p>
+<p>var noteChoices: Array = [];</p>
+<p>/** Make sure that the current scale we're using to make logic decisions starts on the first note of the current mode.</p>
+<p>ie. in Ionian, loadout['one'] = C3, loadout['two'] = D3, etc.</p>
+<p>in Dorian, loadout['one'] = D3, loadout['two'] = E3, etc. */</p>
+<p>for (var i:int = 0; i &lt;= DEGREES.length - 1; i++)</p>
+<p>loadout[DEGREES[i]] = C_MAJOR[i + modeToUse.position - 1]; // - 1 is to account for starting at Zero.</p>
+<p>/** Iterate through the loadout, find which is the last note played, then store the associated set of choices to noteChoices. */</p>
+<p>loop: for (var j: int = 0; j &lt; DEGREES.length - 1; j++)</p>
+<p>{</p>
+<p>if (lastNotePlayed == loadout[DEGREES[j]])</p>
+<p>{</p>
+<p>noteChoices = modeToUse.logic[j];</p>
+<p>found = true;</p>
+<p>break loop;</p>
+<p>}</p>
+<p>}</p>
+<p>/** If the last note played was not found in the loadout, use the 'else' choices from the logic array. */</p>
+<p>if (found == false)</p>
+<p>noteChoices = modeToUse.logic[08]; // [08], or the last set of arguments in the logic array, used like an else statement.</p>
+<p>/** The numerical choice from the array of choices that we will use. */</p>
+<p>var choice: int = Math.round(Math.random() * (noteChoices.length - 1));</p>
+<p>/** The note that we will return to the playNote() function and eventually play. */</p>
+<p>var note: Class = loadout[noteChoices[choice]] as Class;</p>
+<p>return note;</p>
+<p>}</p>
+<p>The system above will work great for moving through various modes in a single key, but what if you want to move through the other 11 keys, too? The most straightforward solution would be to create arrays for all of the keys. You also would of course need to create assets for all the new notes that you are using.</p>
+<p>// Arrays of all the notes in needed to potentially form an eight note scale in any mode, in any key. s = #, ie. Cs3 = C#3</p>
+<p>public static const C_MAJOR : Array = [C3, D3, E3, F3, G3, A3, B3, C4, D4, E4, F4, G4, A4, B4];</p>
+<p>public static const Cs_MAJOR: Array = [Cs3, Ds3, F3, Fs3, Gs3, As3, C4, Cs4, Ds4, F4, Fs4, Gs4, As4, C5];</p>
+<p>public static const D_MAJOR : Array = [D3, E3, Fs3, G3, A3, Cs4, D4, E4, Fs4, G4, A4, Cs5];</p>
+<p>public static const Ds_MAJOR: Array = [Ds3, F3, G3, Gs3, As3, D4, Ds4, F4, G4, Gs4, As4, D5];</p>
+<p>public static const E_MAJOR : Array = [E3, Fs3, Gs3, A3, B3, Ds4, E4, Fs4, Gs4, A4, B4, Ds5];</p>
+<p>public static const F_MAJOR : Array = [F3, G3, A3, As3, C4, E4, F4, G4, A4, As4, C5, E5];</p>
+<p>public static const Fs_MAJOR: Array = [Fs3, Gs3, As3, B3, Cs4, F4, Fs4, Gs4, As4, B4, Cs5, F5];</p>
+<p>public static const G_MAJOR : Array = [G3, A3, B3, C4, D4, F4, G4, A4, B4, C5, D5, F5];</p>
+<p>public static const Gs_MAJOR: Array = [Gs3, As3, C4, Cs4, Ds4, Fs4, Gs4, As4, C5, Cs5, Ds5, Fs5];</p>
+<p>public static const A_MAJOR : Array = [A3, B3, Cs4, D4, E4, G4, A4, B4, Cs5, D5, E5, G5];</p>
+<p>public static const As_MAJOR: Array = [As3, C4, D4, Ds4, F4, Gs4, As4, C5, D5, Ds5, F5, Gs5];</p>
+<p>public static const B_MAJOR : Array = [B3, Cs4, Ds4, E4, Fs4, A4, B4, Cs5, Ds5, E5, Fs5, A5];</p>
+<p>// For the sake of the example, let's say the current key is F# Major.</p>
+<p>public static var currentKey: Array = Fs_MAJOR;</p>
+<p>Then, you would adjust the for loop that fills the loadout to check for the current key's scale:</p>
+<p>for (var i:int = 0; i &lt;= DEGREES.length - 1; i++)</p>
+<p>loadout[DEGREES[i]] = currentKey[i + modeToUse.position - 1];</p>
+<h2 id="游戏开发的工作流程unity学习篇">#🌱游戏开发的工作流程（Unity学习篇）</h2>
+<p>①{编辑器Visual Studio Code or Cursor | Unity |Github Desktop }<br>
+②类的继承者们就是我需要写的代码。一般继承的类都是: MonoBehaviour；<br>
+public class MyScript : MonoBehaviour<br>
+{<br>
+// 用于组件脚本<br>
+// 包含 Start(), Update(), Awake() 等生命周期方法<br>
+}</p>
+<p>但Unity官方教程里面继承的是Player : MovingObject，这似乎是Player族的大名！然后就直接省略移动相关的代码工作了。Enemy和NPC似乎也能使用相同的族类呢！<br>
+public class CustomPropertyDrawer : PropertyDrawer<br>
+{<br>
+// 用于自定义Inspector中属性的显示方式<br>
+}<br>
+public class ItemData : ScriptableObject<br>
+{<br>
+// 用于创建可重用的数据资源<br>
+}<br>
+public class CustomEditorWindow : EditorWindow<br>
+{<br>
+// 用于创建自定义编辑器窗口<br>
+}<br>
+Destructible : TileBase 这个是继承TileBase，可以用来设置多层遮罩和精灵切换，也可以设置不同破坏状态的动画<br>
+public class CustomTile : TileBase<br>
+{<br>
+// 用于创建自定义瓦片<br>
+}<br>
+public class CustomAnimationBehaviour : StateMachineBehaviour<br>
+{<br>
+// 用于控制动画状态机的行为<br>
+}</p>
+<p>public class CustomInspector : Editor<br>
+{<br>
+// 用于自定义组件的Inspector界面<br>
+}</p>
+<p>③GameManager相当于三权分立里面的联邦中央政府+FBI+白宫国会<br>
+<strong>GameManager一并管理其他BoardManager+SoundManager...</strong><br>
+杰克有茶偏心使用的Entity实体<br>
+<strong>官方指引下的不同平台正确编译依靠一下代码</strong><br>
+<code>#if UNITY_STANDALONE || UNITY_WEBPLAYER     horizontal = (int) (Input.GetAxisRaw (&quot;Horizontal&quot;));     vertical = (int) (Input.GetAxisRaw (&quot;Vertical&quot;)); #elif UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE     // 移动端触摸输入处理 #endif</code><br>
+<strong>音效系统的SoundManager<br>
+AudioClip是指定某一首歌；AudioSource是控制播放音乐</strong><br>
+④GameController相当于三权分立里面的法庭，就是<strong>逆转裁判</strong>，就是Coc桌游的KP<br>
+玩家和敌人的攻击/玩家和NPC的互动对话情报交流/玩家和世界的交互关系都可以在这里得到处理<br>
+⑤我偏爱的微交互系统如何实现呢？<br>
+首先要给不同类型的交互物体打Tag区分开来，然后根据tag来做出不同的交互反馈。<br>
+1.<br>
+<code>public enum AABBType {AABB, BBCC,}; private void OnTriggerEnter2D (Collider2D other) {     if(other.tag == &quot;Exit&quot;)     {         Invoke (&quot;Restart&quot;, restartLevelDelay);         enabled = false;     }     else if(other.tag == &quot;Food&quot;)     {         // 处理食物收集     } }</code>//这里出口的交互反馈是离开这一关卡（Unity官方程序员使用了随机迷宫生成所以是restartLevelDelay），我也可以改成进入第二关。然后如果是碰到Tag是Food的物体就把食物收集起来，我可以在这里加入一个拾取食物的anim.=&gt;<code>animator.SetTrigger (&quot;playerCollect&quot;);</code><br>
+⑥**[SerializeField]配置Unity的inspector，相当于三权分立里面剩下的啊那个没有人比我更懂<s>的总统。**<br>
+如果提供权力给总统inspector，比如让他可以合法提供武器给乌克兰or以色列，就要在代码前面加[SerializeField] ，于是乎大总统就能察觉还能这个样子操作啊，果然没有人比我更懂</s>~<br>
+除此之外，总统可以自己调数值看看接下来会发生什么，出错了就自己改回去呗，同时可以保存Prefab和场景数据存档</p>
+<form action="<your server endpoint>" method="POST" enctype="text/plain">
+  <button name="🥨">🥨</button>
+</form>
+<h2 id="ai写代码">#AI写代码</h2>
+<p>#让Github copliot写代码的提示语<br>
+Based on the provided player movement code in Haxe/OpenFL, create a 'fog of war' mechanic for a library exploration game. the player should only be able to see a limited area around them, with the rest of the map initially obscured. As the player moves, nearby areas become visible. Focus on efficient visibility updates and ensure that the mechanic integrates seamlessly with the existing movement system. Provide code snippets for the visibility calculation, graphical updates, and any necessary modifications to the player class</p>
+]]></content>
+    </entry>
+</feed>
