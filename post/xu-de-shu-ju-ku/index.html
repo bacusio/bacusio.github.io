@@ -1,0 +1,466 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>🖥 许的数据库+为了做好游戏学游戏引擎 | 白熊泡面🍜</title>
+<link rel="shortcut icon" href="https://bacusio.github.io/favicon.ico?v=1763750250303">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://bacusio.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="🖥 许的数据库+为了做好游戏学游戏引擎 | 白熊泡面🍜 - Atom Feed" href="https://bacusio.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="🌱游戏开发的工作流程（Haxe学习篇）
+
+①安装{Haxe|Haxe Flixel|lime|编辑器Visual Studio Code|OpenFL|heaps}
+②&quot;Hello World&quot;，创建新文件
+'flix..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://bacusio.github.io">
+  <img class="avatar" src="https://bacusio.github.io/images/avatar.png?v=1763750250303" alt="">
+  </a>
+  <h1 class="site-title">
+    白熊泡面🍜
+  </h1>
+  <p class="site-description">
+    修剪技能树
+BiuBiuBiu~
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://bacusio.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://bacusio.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href="https://www.zhihu.com/people/casas" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              🖥 许的数据库+为了做好游戏学游戏引擎
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-08-21
+              </span>
+              <span>
+                17 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="游戏开发的工作流程haxe学习篇">🌱游戏开发的工作流程（Haxe学习篇）</h1>
+<hr>
+<p>①安装{Haxe|Haxe Flixel|lime|编辑器Visual Studio Code|OpenFL|heaps}<br>
+②&quot;Hello World&quot;，创建新文件<br>
+'flixel create'可以创建自带一些代码demo<br>
+'flixel tpl -n Hello World'可以创建自己的游戏项目《Hello World》<br>
+'dir'显示文件夹里的内容<br>
+'code .'在visual studio 里面显示内容<br>
+③理解内容<br>
+Main.hx是核心源代码。其他模块功能的代码都放在<Source>文件夹里<br>
+project.xml是一些依赖和安装库<br>
+bulid.xml是用来配置和指定路径<br>
+<assets>是用来放游戏资产<br>
+④尝试测试它，让它动起来<br>
+visual studio code 里面选run and debug<br>
+bulid.json是用来指导visual studio做测试的<br>
+或者选Command Palette然后输入'run build task'<br>
+或者在命令行输入'haxe run lime' 'lime test html5' 编译代码为h5</p>
+<p>#PART2.0</p>
+<p>①bulid.hxml具体功能是可以用来输出不同平台的代码包<br>
+[python bin/Main.py]-&gt;一键生成python代码包在bin文件夹里<br>
+[node bin/Main.js]-&gt;一键生成js代码包在bin文件夹里<br>
+②每个类（Class）的命名首字母都要大写，否则无法识别。<br>
+③代码的分段测试是通过在VC code 里面按Ctrl+Shrft+B来运行完成的，这个步骤用于跟踪单个模块的错误和异常行为，必须先测试单个模块，之后才进行集成测试，让不同模块正确交互，观察接口是否按预期工作，不要急着冲，会有BUG（怎么在CodeSpace里面调试程序还在研究）<br>
+④目前已知的Haxe Flixel的开源项目可以实现的功能有：1.存档；2方向键控制； 3.敌人auto巡路行为算法；4.烛光的明暗渲染效果；5交互对话系统；6藏经阁书籍显示内容；7.玩家动画sprite；<br>
+未找到的功能：1.随时间消耗SAN值的系统机制；2.合成道具系统机制；3.背包机制；4谜题推理系统；5使用PlayState回收使用资产避免摧毁物体造成内存消耗的具体实例；6Tilesheet和场景代码的关联和参考demo；7.场景边缘黑暗模糊的特效；8.技能发动系统机制及UI设计框架；<br>
+⑤<br>
+#Haxe代码格式开头是 import XXX<br>
+[import openfl.display.Sprite]-&gt;导入openfl文件夹里的display文件夹里的Sprite.hx代码；此步骤确保import包含所有导入代码<br>
+#接着我们就可以写相关的Sprite函数，命名各种类（Class）了</p>
+<p>Sprite是指角色所有动作的图，要PNG格式，最好是64乘64的像素，然后240p（4.5：1）的画面是最兼容各种尺寸的平台格式。可以用TexturePacker来分割处理每个动作的数据坐标，对应生成的json文件放在<data>文件夹里（目前没搞懂为什么有些Sprite图不是彩色的反而是灰阶的）<br>
+Class new （一个首字母大写的新名字）就是新增类；<br>
+Class override （Name）就是添加新功能；<br>
+Class super (Name) 就是可以积累使用的拓展覆盖功能；</p>
+<p>此步骤要验证所有函数和变量都正确声明和使用+审查逻辑+Debug跟踪程序的流程+使用不同输入和场景测试代码+检测语法和缺少的分号（；）<br>
+当在做游戏玩法开发的时候，主屏幕改成PlayState.hx，出错的话要分析错误信息，定位漏洞点，进行必要的修复和重复调试过程，不出错的话，不要再手贱修改无问题的代码了:(。全部无误就可以改回主屏幕MenuState.hx<br>
+⑥function init{} function regularUpdate(dt：float){}是用来更新函数<br>
+function init{} if （state.time==0）{} 是用来在游戏一开始就更新<br>
+这两个函数用来重复使用，定期更新游戏现状，查看游戏胜利条件是否达成<br>
+（没弄懂什么防止排队函数叠堆，要在循环中使用@sYnc 插队进行同步？）</p>
+<p>⑦ Var +（分大小写的名字）:{Int=0(整数)|Float=0（浮点小数点）|Bool（Yes or No）|String（文本字符串text）}（++是数字加一，==是检测两个值相同否，&lt;=是检测前值是否小于后值）<br>
+⑧访问权。super是自下而上拥有所有hx的通行权，可以向上拓展覆盖，但不是全部；private是只在当前.hx有访问权；public是可以访问任何实例位置；inline则是将变量或函数定义成固定值，死也不改了。
+<p>#Review<br>
+FlxEmitter和FlxParticle类用于粒子效果。<br>
+使用FlxSprite类来显示精灵。<br>
+FlxGroup类是我们扩展的类，用来当作回收站节省内存。（子弹）<br>
+TexturePackerData类将用于处理从Texture Packer精灵表加载的精灵。<br>
+FlxTween和FlxEase类将用于缓动。</p>
+<p>private var texturePackerData：<br>
+TexturePackerData；这个变量将存储用于从精灵表中获取精灵的数据：<br>
+private var explosionLine：FlxSprite；private var lineXOffset：Float =<br>
+0；private var lineYOffset：Float = 30；这些变量包含了爆炸线的精<br>
+灵，并且我们将使用x和y偏移量来定位消灭的敌人上方的线条。</p>
+<p>#Mechaniucs<br>
+使用haxe可创建一个openfl项目，下载必须的openfl库<br>
+创建角色和敌人的动画表sprite sheet，找资产-&gt;FlxSprite[[20240110023445]]<br>
+创建系统来在openfl加载管理这些资产<br>
+创建藏经阁关卡地图-&gt;Playstate [[20240110023727]]<br>
+为玩家和敌人和环境实现碰撞系统 -&gt;FlxGroup<br>
+玩家移动功能<br>
+玩家不同动作的动画<br>
+管理玩家的统治数据（san值/进度条/决心）<br>
+敌人的巡逻/追逐/攻击寻路行为算法，<br>
+编写玩家与敌人的交互机制，玩家的理智系统<br>
+游戏开始菜单，包括游戏统计数据和反馈系统<br>
+时时动态照明效果来营造气氛和可视范围<br>
+为拾取物品或遇到敌人添加视觉效果<br>
+音效和背景音乐，管理音频资产和播放</p>
+<p>玩家碰触书可以显示文字，增加理智<br>
+碰触无双纸条，解锁方向<br>
+使用着色器（GLSL）来创建黑色剪影效果，并为灯光投影创建混合模式。<br>
+检测玩家输入，激活技能，<br>
+将玩家的ui改变为书本内容状态<br>
+用着色器创建渲染轮廓效果<br>
+调整播放器周围的照明<br>
+游戏逻辑，当玩家在书本里，无法被鬼魂察觉<br>
+//<br>
+#Story<br>
+#objectives<br>
+#User Interface</p>
+<h2 id="coding-for-musicrich-vreeland">#Coding for Music（Rich Vreeland）</h2>
+<p>// For the purposes of these examples I'm using Flixel and AS3, because it's what I'm familiar with.</p>
+<p>/** The last note played, stored after each new note is played. */</p>
+<p>public static var lastNotePlayed: Class;</p>
+<p>/** Play a note! */</p>
+<p>public static function playNote():void</p>
+<p>{</p>
+<p>var noteToPlay: Class = getNote();</p>
+<p>// This is Flixel's function for playing sounds.</p>
+<p>FlxG.play(noteToPlay);</p>
+<p>lastNotePlayed = noteToPlay;</p>
+<p>}</p>
+<p>/** Get a new series of note choices, based on what the previous note was. */</p>
+<p>private static function getNote():Class</p>
+<p>{</p>
+<p>var noteChoices: Array = [];</p>
+<pre><code>if (lastNotePlayed == C3) noteChoices = [D3, E3, F3, G3, A3, B3, C4];
+</code></pre>
+<p>else if (lastNotePlayed == D3) noteChoices = [C3, E3, G3];</p>
+<p>else if (lastNotePlayed == E3) noteChoices = [F3, G3, C4];</p>
+<p>else if (lastNotePlayed == F3) noteChoices = [E3, G3];</p>
+<p>else if (lastNotePlayed == G3) noteChoices = [C3, D3, E3, F3, A3, B3, C4];</p>
+<p>else if (lastNotePlayed == A3) noteChoices = [G3, B3, C4];</p>
+<p>else if (lastNotePlayed == B3) noteChoices = [G3, A3, C4];</p>
+<p>else if (lastNotePlayed == C4) noteChoices = [C3, G3, B3];</p>
+<p>else    noteChoices = [C3, G3, C4];</p>
+<p>var choice: int = Math.round(Math.random() * (noteChoices.length - 1));</p>
+<p>var note: Class = noteChoices[choice];</p>
+<p>return note;</p>
+<p>}</p>
+<p>#继续加强版音阶狂魔code<br>
+public static const IONIAN: Object = { position: 1 };</p>
+<p>IONIAN.logic = [ /* 00 one  */ ['two', 'thr', 'for', 'fiv', 'six', 'sev', 'one'],</p>
+<p>/* 01 two  */ ['one', 'thr', 'fiv'],</p>
+<p>/* 02 thr  */ ['for', 'fiv', 'oct'],</p>
+<p>/* 03 for  */ ['thr', 'fiv'],</p>
+<p>/* 04 fiv  */ ['one', 'two', 'thr', 'for', 'six', 'sev', 'oct'],</p>
+<p>/* 05 six  */ ['fiv', 'sev', 'oct'],</p>
+<p>/* 06 sev  */ ['fiv', 'six', 'oct'],</p>
+<p>/* 07 oct  */ ['one', 'fiv', 'sev'],</p>
+<p>/* 08 else */ ['one', 'fiv', 'oct']</p>
+<p>];</p>
+<p>public static const DORIAN: Object = { position: 2 };</p>
+<p>DORIAN.logic = [ /* 00 one  */ ['thr', 'fiv', 'sev', 'oct'],</p>
+<p>/* 01 two  */ ['fiv', 'six', 'sev'],</p>
+<p>/* 02 thr  */ ['one', 'for', 'fiv', 'six', 'sev', 'oct'],</p>
+<p>/* 03 for  */ ['fiv', 'six', 'sev', 'oct'],</p>
+<p>/* 04 fiv  */ ['thr', 'six', 'sev', 'oct'],</p>
+<p>/* 05 six  */ ['one', 'for', 'fiv', 'sev', 'oct'],</p>
+<p>/* 06 sev  */ ['thr', 'fiv', 'six', 'oct'],</p>
+<p>/* 07 oct  */ ['one', 'thr', 'for', 'fiv', 'sev'],</p>
+<p>/* 08 else */ ['one', 'fiv', 'oct']</p>
+<p>];</p>
+<p>This is all fine and dandy, but these strings need to be hooked up to the sound assets in order to work. As a way of dealing with different modes, we can create a for loop that will fill a 'loadout' object with the proper notes, assigned to the proper scale degrees.</p>
+<p>/** An array of the scale degrees, used as a reference for populating the loadout object. */</p>
+<p>public static const DEGREES: Array = ['one', 'two', 'thr', 'for', 'fiv', 'six', 'sev', 'oct'];</p>
+<p>/** An array of all the notes needed to potentially form an eight note scale in any mode (Ionian is C3 - C4, Dorian is D3 - D4, Phrygian's E3 - E4, etc.) */</p>
+<p>public static const C_MAJOR: Array = [C3, D3, E3, F3, G3, A3, B3, C4, D4, E4, F4, G4, A4, B4];</p>
+<p>/** The loadout object, to be filled with the notes of the current mode/key. */</p>
+<p>public static var loadout: Object = {};</p>
+<p>/** The last note played, stored after each new note is played. */</p>
+<p>public static var lastNotePlayed: Class;</p>
+<p>// For the sake of the example, let's say the current key is F# Major.</p>
+<p>public static varcurrentMode: Object = DORIAN;</p>
+<p>/** Play a note! */</p>
+<p>public static function playNote():void</p>
+<p>{</p>
+<p>var noteToPlay: Class = getNote(currentMode); // Pass the current mode into getNote(), whatever mode you want it to be!</p>
+<p>FlxG.play(noteToPlay);</p>
+<p>lastNotePlayed = noteToPlay;</p>
+<p>}</p>
+<p>/** Get a new series of note choices, based on what the previous note was. */</p>
+<p>private static function getNote(modeToUse: Object):Class</p>
+<p>{</p>
+<p>/** Whether we've found the last note played in the current loadout. */</p>
+<p>var found: Boolean = false;</p>
+<p>/** The note choices that we'll use to decide the next note to get. */</p>
+<p>var noteChoices: Array = [];</p>
+<p>/** Make sure that the current scale we're using to make logic decisions starts on the first note of the current mode.</p>
+<p>ie. in Ionian, loadout['one'] = C3, loadout['two'] = D3, etc.</p>
+<p>in Dorian, loadout['one'] = D3, loadout['two'] = E3, etc. */</p>
+<p>for (var i:int = 0; i &lt;= DEGREES.length - 1; i++)</p>
+<p>loadout[DEGREES[i]] = C_MAJOR[i + modeToUse.position - 1]; // - 1 is to account for starting at Zero.</p>
+<p>/** Iterate through the loadout, find which is the last note played, then store the associated set of choices to noteChoices. */</p>
+<p>loop: for (var j: int = 0; j &lt; DEGREES.length - 1; j++)</p>
+<p>{</p>
+<p>if (lastNotePlayed == loadout[DEGREES[j]])</p>
+<p>{</p>
+<p>noteChoices = modeToUse.logic[j];</p>
+<p>found = true;</p>
+<p>break loop;</p>
+<p>}</p>
+<p>}</p>
+<p>/** If the last note played was not found in the loadout, use the 'else' choices from the logic array. */</p>
+<p>if (found == false)</p>
+<p>noteChoices = modeToUse.logic[08]; // [08], or the last set of arguments in the logic array, used like an else statement.</p>
+<p>/** The numerical choice from the array of choices that we will use. */</p>
+<p>var choice: int = Math.round(Math.random() * (noteChoices.length - 1));</p>
+<p>/** The note that we will return to the playNote() function and eventually play. */</p>
+<p>var note: Class = loadout[noteChoices[choice]] as Class;</p>
+<p>return note;</p>
+<p>}</p>
+<p>The system above will work great for moving through various modes in a single key, but what if you want to move through the other 11 keys, too? The most straightforward solution would be to create arrays for all of the keys. You also would of course need to create assets for all the new notes that you are using.</p>
+<p>// Arrays of all the notes in needed to potentially form an eight note scale in any mode, in any key. s = #, ie. Cs3 = C#3</p>
+<p>public static const C_MAJOR : Array = [C3, D3, E3, F3, G3, A3, B3, C4, D4, E4, F4, G4, A4, B4];</p>
+<p>public static const Cs_MAJOR: Array = [Cs3, Ds3, F3, Fs3, Gs3, As3, C4, Cs4, Ds4, F4, Fs4, Gs4, As4, C5];</p>
+<p>public static const D_MAJOR : Array = [D3, E3, Fs3, G3, A3, Cs4, D4, E4, Fs4, G4, A4, Cs5];</p>
+<p>public static const Ds_MAJOR: Array = [Ds3, F3, G3, Gs3, As3, D4, Ds4, F4, G4, Gs4, As4, D5];</p>
+<p>public static const E_MAJOR : Array = [E3, Fs3, Gs3, A3, B3, Ds4, E4, Fs4, Gs4, A4, B4, Ds5];</p>
+<p>public static const F_MAJOR : Array = [F3, G3, A3, As3, C4, E4, F4, G4, A4, As4, C5, E5];</p>
+<p>public static const Fs_MAJOR: Array = [Fs3, Gs3, As3, B3, Cs4, F4, Fs4, Gs4, As4, B4, Cs5, F5];</p>
+<p>public static const G_MAJOR : Array = [G3, A3, B3, C4, D4, F4, G4, A4, B4, C5, D5, F5];</p>
+<p>public static const Gs_MAJOR: Array = [Gs3, As3, C4, Cs4, Ds4, Fs4, Gs4, As4, C5, Cs5, Ds5, Fs5];</p>
+<p>public static const A_MAJOR : Array = [A3, B3, Cs4, D4, E4, G4, A4, B4, Cs5, D5, E5, G5];</p>
+<p>public static const As_MAJOR: Array = [As3, C4, D4, Ds4, F4, Gs4, As4, C5, D5, Ds5, F5, Gs5];</p>
+<p>public static const B_MAJOR : Array = [B3, Cs4, Ds4, E4, Fs4, A4, B4, Cs5, Ds5, E5, Fs5, A5];</p>
+<p>// For the sake of the example, let's say the current key is F# Major.</p>
+<p>public static var currentKey: Array = Fs_MAJOR;</p>
+<p>Then, you would adjust the for loop that fills the loadout to check for the current key's scale:</p>
+<p>for (var i:int = 0; i &lt;= DEGREES.length - 1; i++)</p>
+<p>loadout[DEGREES[i]] = currentKey[i + modeToUse.position - 1];</p>
+<h2 id="游戏开发的工作流程unity学习篇">#🌱游戏开发的工作流程（Unity学习篇）</h2>
+<p>①{编辑器Visual Studio Code or Cursor | Unity |Github Desktop }<br>
+②类的继承者们就是我需要写的代码。一般继承的类都是: MonoBehaviour；<br>
+public class MyScript : MonoBehaviour<br>
+{<br>
+// 用于组件脚本<br>
+// 包含 Start(), Update(), Awake() 等生命周期方法<br>
+}</p>
+<p>但Unity官方教程里面继承的是Player : MovingObject，这似乎是Player族的大名！然后就直接省略移动相关的代码工作了。Enemy和NPC似乎也能使用相同的族类呢！<br>
+public class CustomPropertyDrawer : PropertyDrawer<br>
+{<br>
+// 用于自定义Inspector中属性的显示方式<br>
+}<br>
+public class ItemData : ScriptableObject<br>
+{<br>
+// 用于创建可重用的数据资源<br>
+}<br>
+public class CustomEditorWindow : EditorWindow<br>
+{<br>
+// 用于创建自定义编辑器窗口<br>
+}<br>
+Destructible : TileBase 这个是继承TileBase，可以用来设置多层遮罩和精灵切换，也可以设置不同破坏状态的动画<br>
+public class CustomTile : TileBase<br>
+{<br>
+// 用于创建自定义瓦片<br>
+}<br>
+public class CustomAnimationBehaviour : StateMachineBehaviour<br>
+{<br>
+// 用于控制动画状态机的行为<br>
+}</p>
+<p>public class CustomInspector : Editor<br>
+{<br>
+// 用于自定义组件的Inspector界面<br>
+}</p>
+<p>③GameManager相当于三权分立里面的联邦中央政府+FBI+白宫国会<br>
+<strong>GameManager一并管理其他BoardManager+SoundManager...</strong><br>
+杰克有茶偏心使用的Entity实体<br>
+<strong>官方指引下的不同平台正确编译依靠一下代码</strong><br>
+<code>#if UNITY_STANDALONE || UNITY_WEBPLAYER     horizontal = (int) (Input.GetAxisRaw (&quot;Horizontal&quot;));     vertical = (int) (Input.GetAxisRaw (&quot;Vertical&quot;)); #elif UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE     // 移动端触摸输入处理 #endif</code><br>
+<strong>音效系统的SoundManager<br>
+AudioClip是指定某一首歌；AudioSource是控制播放音乐</strong><br>
+④GameController相当于三权分立里面的法庭，就是<strong>逆转裁判</strong>，就是Coc桌游的KP<br>
+玩家和敌人的攻击/玩家和NPC的互动对话情报交流/玩家和世界的交互关系都可以在这里得到处理<br>
+⑤我偏爱的微交互系统如何实现呢？<br>
+首先要给不同类型的交互物体打Tag区分开来，然后根据tag来做出不同的交互反馈。<br>
+1.<br>
+<code>public enum AABBType {AABB, BBCC,}; private void OnTriggerEnter2D (Collider2D other) {     if(other.tag == &quot;Exit&quot;)     {         Invoke (&quot;Restart&quot;, restartLevelDelay);         enabled = false;     }     else if(other.tag == &quot;Food&quot;)     {         // 处理食物收集     } }</code>//这里出口的交互反馈是离开这一关卡（Unity官方程序员使用了随机迷宫生成所以是restartLevelDelay），我也可以改成进入第二关。然后如果是碰到Tag是Food的物体就把食物收集起来，我可以在这里加入一个拾取食物的anim.=&gt;<code>animator.SetTrigger (&quot;playerCollect&quot;);</code><br>
+⑥**[SerializeField]配置Unity的inspector，相当于三权分立里面剩下的啊那个没有人比我更懂<s>的总统。**<br>
+如果提供权力给总统inspector，比如让他可以合法提供武器给乌克兰or以色列，就要在代码前面加[SerializeField] ，于是乎大总统就能察觉还能这个样子操作啊，果然没有人比我更懂</s>~<br>
+除此之外，总统可以自己调数值看看接下来会发生什么，出错了就自己改回去呗，同时可以保存Prefab和场景数据存档</p>
+<form action="<your server endpoint>" method="POST" enctype="text/plain">
+  <button name="🥨">🥨</button>
+</form>
+<h2 id="ai写代码">#AI写代码</h2>
+<p>#让Github copliot写代码的提示语<br>
+Based on the provided player movement code in Haxe/OpenFL, create a 'fog of war' mechanic for a library exploration game. the player should only be able to see a limited area around them, with the rest of the map initially obscured. As the player moves, nearby areas become visible. Focus on efficient visibility updates and ensure that the mechanic integrates seamlessly with the existing movement system. Provide code snippets for the visibility calculation, graphical updates, and any necessary modifications to the player class</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8Bhaxe%E5%AD%A6%E4%B9%A0%E7%AF%87">🌱游戏开发的工作流程（Haxe学习篇）</a>
+<ul>
+<li><a href="#coding-for-musicrich-vreeland">#Coding for Music（Rich Vreeland）</a></li>
+<li><a href="#%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8Bunity%E5%AD%A6%E4%B9%A0%E7%AF%87">#🌱游戏开发的工作流程（Unity学习篇）</a></li>
+<li><a href="#ai%E5%86%99%E4%BB%A3%E7%A0%81">#AI写代码</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://bacusio.github.io/post/du-a-er-bei-ya-qia-er-or-2025xie-gei-wei-chu-shi-de-ni/">
+              <h3 class="post-title">
+                📚读阿尔贝·雅卡尔 | 2025：写给未出世的你
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+
+  <a class="rss" href="https://bacusio.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
